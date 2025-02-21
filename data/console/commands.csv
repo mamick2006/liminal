@@ -1,0 +1,2 @@
+command,class,tags,syntax,help
+AddResearchPoints,liminal.scripts.LiminalAddRP,"liminal,campaign",AddResearchPoints <amount>,Adds <amount> Liminality Research Points

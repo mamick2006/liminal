@@ -1,0 +1,185 @@
+id,trigger,conditions,script,text,options,notes
+#RULESET_NAME liminal,,,,,,
+,,,,,,
+liminal_galatia_start0,PopulateOptions,"$id == station_galatia_academy
+!$player.liminal_hullmods_enabled",,"Out of the corner of your eye, you see an excited group of researchers wave you down.",99:liminal_galatia_liminalitystart:Talk to the researchers,
+liminal_galatia_start_c1,PopulateOptions,"$id == station_galatia_academy
+$player.credits < 10000","SetTooltip liminal_galatia_liminalitystart ""Requires at least 10,000 credits and ability to use gates.""
+SetTooltipHighlights liminal_galatia_liminalitystart ""10,000"" ""gates""
+SetEnabled liminal_galatia_liminalitystart false",,,
+liminal_galatia_start_c2,PopulateOptions,"$id == station_galatia_academy
+!$global.playerCanUseGates","SetTooltip liminal_galatia_liminalitystart ""Requires at least 10,000 credits and ability to use gates.""
+SetTooltipHighlights liminal_galatia_liminalitystart ""10,000"" ""gates""
+SetEnabled liminal_galatia_liminalitystart false",,,
+liminal_galatia_liminalitystart,DialogOptionSelected,$option == liminal_galatia_liminalitystart,Liminal_ShowAndCreatePerson liminal_elna,"You walk up to the group of researchers. A few faces seem familiar from your previous visits to the Academy, but based on their ages most of them are students or post-docs.
+
+""$PlayerSirOrMadam! A moment of your time, please?"" One of them, a younger woman with a ponytail and dark circles under her eyes, steps forward. ""We've heard about your exploits working with Provost Biard! How you played a critical role in testing the Janus Device, amongst other things. We have the opportunity of a lifetime for you.""","liminal_galatia_hear_them_out:Hear them out
+liminal_galatia_busy:Tell them you're busy",
+liminal_galatia_busy,DialogOptionSelected,$option == liminal_galatia_busy,FireAll PopulateOptions,"""Of course, of course. But please, come back when you have time - this could revolutionize everything!""",,
+liminal_galatia_hear_them_out,DialogOptionSelected,$option == liminal_galatia_hear_them_out,"ShowImageVisual liminal_liminality
+SetTextHighlightColors ""255,165,0,255""
+SetTextHighlights ""Liminality""
+FireAll liminal_galatia_options","She introduces herself as Dr. Elna Rousseau, who along with her twin brother Jarn are the leads on the project (though you get the impression that's only true because no-one more important has noticed). They lead you far away from the main throughfares to a small laboratory in a quiet corner of the Academy. Inside, nestled in a bundle of machinery in the middle of the room, you see an orange glow emanating from what appears to be a floating geometric shape, about a meter across. The air around it seems... wrong somehow, as if reality itself is bending.
+
+""This,"" Elna says with barely contained excitement, ""is the Liminality. A bridge between what is and what could be! With the right application of resources and research, the laws of physics are our playground!""",,
+liminal_galatia_options_3,liminal_galatia_options,!$liminal_galatia_asked_3,,,liminal_galatia_where_from:Ask where they got it,
+liminal_galatia_where_from,DialogOptionSelected,$option == liminal_galatia_where_from,"$liminal_galatia_asked_3 = true 0
+FireAll liminal_galatia_options","""It was found by some scavengers on the edge of the sector literally embedded in rock, and eventually it found its way here."" Elna shifts uncomfortably. ""There's no mention of it in any Domain records we can find. Pretty much everyone tried to figure out what it was, even Coureuse, but after after a decade or so of no progress it was dismissed as a curiosity and left to gather dust.""
+
+""A curiosity until we got our chance at it,"" Jarn says, grinning.",,
+liminal_galatia_options_1,liminal_galatia_options,!$liminal_galatia_asked_1,,,liminal_galatia_how_work:Ask what it does,
+liminal_galatia_how_work,DialogOptionSelected,$option == liminal_galatia_how_work,"$liminal_galatia_asked_1 = true 0
+Liminal_ShowAndCreatePerson liminal_jarn
+SetTextHighlightColors ""155,255,0,255"" ""255,165,0,255"" ""155,255,0,255"" ""155,255,0,255""
+SetTextHighlights ""Linkage"" ""Liminality"" ""Instruction"" ""Linkage"" ","""Well, we're not not entirely sure, to be honest. Our best guess is that this, whatever it is, creates a connection between our universe and... something else. Somewhere else. We can exploit that connection to locally change the rules of physics, almost like programming reality,"" Jarn says. ""Our research is still in early days,""
+
+""So far, we know that we need an Linkage, that links something next to the Liminality to a distant object, and an Instruction, that tells the Linkage what to do. For example...""
+
+He tosses you a sheet of metal with a symbol inscribed on it, then tosses a second sheet towards the artifact. The second sheet has a dense mass of symbols, including the one on the first. ",liminal_galatia_catch_sheet:Catch the sheet,
+liminal_galatia_catch_sheet,DialogOptionSelected,$option == liminal_galatia_catch_sheet,"SetTextHighlightColors ""255,165,0,255"" ""155,255,0,255""
+SetTextHighlights ""Liminality"" ""Instructions""
+FireAll liminal_galatia_options","As you catch it, you notice the second sheet slowing down as it approaches the Liminality, until it begins orbiting it, floating in the air. Your sheet flies out of your hands and crashes against the ceiling with a loud clang.
+
+""Voila."" Jarn waves his hands. ""Antigravity. One of the first Instructions we managed to get working, using nothing more than a few scribbles on a scrap of metal. Just imagine what we could do next.""",,
+,,,,,,
+liminal_galatia_options_5,liminal_galatia_options,"!$liminal_galatia_asked_5
+$liminal_galatia_asked_1
+$liminal_galatia_asked_2",,,liminal_galatia_why_not_bigger:Ask why not approach the Hegemony or Tri-Tachyon,
+liminal_galatia_why_not_bigger,DialogOptionSelected,$option == liminal_galatia_why_not_bigger,"$liminal_galatia_asked_5 = true 0
+FireAll liminal_galatia_options","""Beyond all the moral and philosophical reasons?""
+
+""It doesn't scale well,"" Jarn says. ""It takes an enormous amount of resources to run, and that amount increases exponentially the more you use it. For a small fleet, sure it's doable. But it would take more resources than exist in the universe if you wanted to equip the Hegemony.""",,
+liminal_galatia_options_2,liminal_galatia_options,!$liminal_galatia_asked_2,,,liminal_galatia_what_need:Ask what they need from you,
+liminal_galatia_what_need,DialogOptionSelected,$option == liminal_galatia_what_need,"$liminal_galatia_asked_2 = true 0
+ShowImageVisual liminal_liminality
+SetTextHighlightColors h h ""255,165,0,255"" h h
+SetTextHighlights ""ongoing funding"" ""10,000"" ""Liminality"" ""hullmods"" ""operating costs""
+FireAll liminal_galatia_options","""We need funding. Significant funding. You would not believe how much energy and resources it takes to run this even at a basic level. If we did everything we wanted, it would quickly bankrupt even the Academy."" Elna shakes her head.
+
+""But an independent Captain? One who has already achieved great success, whose star is ascendant? That could work. We're counting on an investment from you, not just now but in the future. Of course we'd need a down-payment, in addition to ongoing funding. Say 10,000 credits."" You can tell that they're on the verge of running out of funds.
+
+""But in exchange, we'll use the Liminality to enhance your fleet in unprecedented ways! Special hullmods that do the impossible. You want a ship that can travel back in time? That can shoot missiles that destroy stars? It's yours. Theoretically of course, once we do the research. And of course you'll need to pay operating costs of these modifications.""",,
+liminal_galatia_options_4,liminal_galatia_options,"!$liminal_galatia_asked_4",,,"liminal_galatia_dangerous:""Sounds dangerous.""",
+liminal_galatia_dangerous,DialogOptionSelected,$option == liminal_galatia_dangerous,"$liminal_galatia_asked_4 = true 0
+FireAll liminal_galatia_options","""Oh, it's perfectly safe! Well, mostly safe. The effects are completely controllable and reversible. We just need more funding to perfect the implementation. Speaking of which...""",,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+liminal_galatia_options_6,liminal_galatia_options,"$liminal_galatia_asked_1
+$liminal_galatia_asked_2
+$liminal_galatia_asked_3
+$liminal_galatia_asked_4
+$liminal_galatia_asked_5",,,"liminal_galatia_accept:Pay 10,000 credits
+liminal_galatia_refuse:Decline for now",
+liminal_galatia_refuse,DialogOptionSelected,$option == liminal_galatia_refuse,FireAll PopulateOptions,,,
+liminal_galatia_accept,DialogOptionSelected,$option == liminal_galatia_accept,"SetTextHighlightColors h ""255,165,0,255"" h
+SetTextHighlights ""Gained access to the"" ""Liminality"" ""Check major events in your intel screen to continue.""
+Liminal_EnableHullmods
+Liminal_AddRP 5
+Liminal_ShowAndCreatePerson liminal_elna
+RemoveCommodity credits 10000
+$player.liminal_hullmods_enabled = true
+FireAll PopulateOptions","The researchers quickly get to work, setting up equipment and making calculations. Within an hour, they present you with what looks like a standard modspec, though even that pulses with a faint blue glow.
+
+""This is just the beginning. The template can hold basic instructions now, but with more research and funding, we can unlock much more powerful effects. We'll contact you when we have new breakthroughs ready.""
+
+They provide you with detailed instructions on how to use the templates.
+
+Gained access to the Liminality. Check major events in your intel screen to continue.",,
+,,,,,,
+liminal_research_dialog_first_time,LiminalityResearchTeamDialog,!$global.liminalSeenStarting,"$global.liminalSeenStarting = true
+Liminal_ShowAndCreatePerson liminal_jarn","On your screen, you see Jarn in the lab next to the floating, glowing Liminality.
+
+""Thanks again for the credits! Don't tell Elna I said this, but you have no idea how close we were to having to shut everything down,"" Jorn says. ""Now we can get back to work! And also eat real food!""
+
+""And speaking of credits,"" Jarn continues, ""feel free to invest as much as you'd like. The more funding we have, the faster we can give you shiny new toys to play with. You want cooler ships, right? You can also provide some resources directly.""
+
+He pauses as he sees his sister enter the room.",liminal_reshow_start:Continue,
+liminal_research_dialog,LiminalityResearchTeamDialog,,ShowImageVisual liminal_liminality,"""Ah, $PlayerSirOrMadam! Great to see you again. Here to discuss the project?"" Elna asks. ""We're making steady progress, though there are opportunities for additional funding.""","liminal_funding_options:Discuss funding opportunities
+liminal_leave:Leave",
+liminal_research_dialog_second_time,LiminalityResearchTeamDialog,"$global.liminalSeenStarting
+!$global.liminalSeenIncreased
+$global.liminal_increases > 0","$global.liminalSeenIncreased = true
+SetTextHighlightColors ""255,165,0,255""
+SetTextHighlights ""Liminality""
+Liminal_AddRP 5
+Liminal_ShowAndCreatePerson liminal_elna","""$PlayerSirOrMadam, we've hit a... complication,"" Elna says. ""The resource requirements needed to make further progress have increased. We need to raise the minimum research investment to maintain stability.""
+
+""But we've also discovered something really cool!"" Jarn chimes in. ""The Liminality isn't really from our universe, but we already knew that. What we didn't know, is that it's actually a Tesseract! It's a projection of a four-dimensional object into our measly three dimensions. Well, I guess you could technically say everything is a projection of a four-dimensional object, what with time and all, but this is a different kind of projection!""",liminal_reshow_start:Continue,
+liminal_research_dialog_third_time,LiminalityResearchTeamDialog,"$global.liminalSeenStarting
+$global.liminalSeenIncreased
+!$global.liminalSeenIncreasedThree
+$global.liminal_increases >= 3","$global.liminalSeenIncreasedThree = true
+SetTextHighlightColors ""255,165,0,255"" ""155,255,0,255""
+SetTextHighlights ""Liminality"" ""Instructions""
+Liminal_AddRP 5
+Liminal_ShowAndCreatePerson liminal_elna","""I apologize, but we need to increase funding requirements again,"" Elna says gravely. ""The Liminality is... resistant to our attempts to understand it. Like it's actively changing to prevent us from learning too much.""
+
+Jarn nods, his usual enthusiasm tempered. ""We've found fragments of what might be other Instructions embedded in its structure. Far more complex than anything we've managed to create. And they seem to be trying to do something, though we can't tell what. We think there might be some sort of sentience behind it, that allows us to copy the rules from somewhere else and use them in our own. Whatever it is, it's definitely not from this sector, or even our universe.""
+
+""But the march of science must proceed.""",liminal_reshow_start:Continue,
+liminal_research_dialog_fourth_time,LiminalityResearchTeamDialog,"$global.liminalSeenStarting
+$global.liminalSeenIncreased
+$global.liminalSeenIncreasedThree
+!$global.liminalSeenIncreasedTen
+$global.liminal_increases >= 10","$global.liminalSeenIncreasedTen = true
+SetTextHighlightColors ""255,165,0,255"" ""155,255,0,255""
+SetTextHighlights ""Liminality"" ""Instructions""
+Liminal_AddRP 5
+Liminal_ShowAndCreatePerson liminal_elna","The researchers look deeply troubled as they explain the latest cost increase. ""We've discovered something... disturbing,"" Elna says quietly. ""The Liminality is getting increasingly aggressive. Though we still have control over our local instance, we feel like there might be more of them coming. Our best guess is that our version was the attempt of some being from outside our reality to come inside.""
+
+""We can keep researching if you think it's a good idea, but something might happen and we understand if you want us to stop. The symbols, the Instructions - they're a language for rewriting the laws of physics,"" Jarn adds, his usual enthusiasm completely gone. ""But we're only seeing a tiny piece of it. Whatever is trying to get inside, it created the entire language.""",liminal_reshow_start:Continue,
+liminal_back,liminal_rt_options,,,,99:liminal_back_execute:Back,
+liminal_back_execute,DialogOptionSelected,$option == liminal_back_execute,FireBest LiminalityResearchTeamDialog,,,
+liminal_funding_options,DialogOptionSelected,$option == liminal_funding_options,"Liminal_ShowAndCreatePerson liminal_jarn
+FireAll liminal_rt_options","""With some additional stuff, we should be able to speedup our research! Don't keep coming back with shiploads of metal though, we don't need that much.""",,
+liminal_metals,liminal_rt_options,!$player.liminalGaveMetals,,,"liminal_metals_give:2,000 Metals",
+liminal_give_cond1,liminal_rt_options,"!$player.liminalGaveMetals
+$player.metals < 2000
+","SetTooltip liminal_metals_give ""Requires at least 2,000 metals.""
+SetTooltipHighlights liminal_metals_give ""2,000""
+SetEnabled liminal_metals_give false",,,
+liminal_metals_give,DialogOptionSelected,$option == liminal_metals_give,"RemoveCommodity metals 2000
+Liminal_AddRP 4
+$player.liminalGaveMetals = true
+FireAll liminal_rt_options","""Thanks! This should really help!""",,
+liminal_supplies,liminal_rt_options,!$player.liminalGaveSupplies,,,"liminal_supplies_give:10,000 Supplies",
+liminal_give_cond3,liminal_rt_options,"!$player.liminalGaveSupplies
+$player.supplies < 10000
+","SetTooltip liminal_supplies_give ""Requires at least 10,000 supplies.""
+SetTooltipHighlights liminal_supplies_give ""10,000""
+SetEnabled liminal_supplies_give false",,,
+liminal_supplies_give,DialogOptionSelected,$option == liminal_supplies_give,"RemoveCommodity supplies 10000
+Liminal_AddRP 15
+$player.liminalGaveSupplies = true
+FireAll liminal_rt_options","""This... this is incredible! With these resources, we can run experiments for months!""",,
+liminal_alpha,liminal_rt_options,!$player.liminalGaveAlpha,,,"liminal_alpha_give:1 Alpha Core",
+liminal_give_cond4,liminal_rt_options,"!$player.liminalGaveAlpha
+$player.alpha_core < 1
+","SetTooltip liminal_alpha_give ""Requires 1 alpha core.""
+SetTooltipHighlights liminal_alpha_give ""1""
+SetEnabled liminal_alpha_give false",,,
+liminal_alpha_give,DialogOptionSelected,$option == liminal_alpha_give,"RemoveCommodity alpha_core 1
+Liminal_AddRP 15
+$player.liminalGaveAlpha = true
+FireAll liminal_rt_options","""An Alpha Core? Are you sure about this?"" Elna asks nervously. ""Well... I suppose we can use it just for calculations...""",,
+liminal_gamma,liminal_rt_options,!$player.liminalGaveGamma,,,"liminal_gamma_give:2 Gamma Cores",
+liminal_give_cond5,liminal_rt_options,"!$player.liminalGaveGamma
+$player.gamma_core < 2
+","SetTooltip liminal_gamma_give ""Requires 2 gamma cores.""
+SetTooltipHighlights liminal_gamma_give ""2""
+SetEnabled liminal_gamma_give false",,,
+liminal_gamma_give,DialogOptionSelected,$option == liminal_gamma_give,"RemoveCommodity gamma_core 2
+Liminal_AddRP 6
+$player.liminalGaveGamma = true
+FireAll liminal_rt_options","""These will help automate some of our more tedious calculations. Thanks!""",,
+,,,,,,
+liminal_reshow_start,DialogOptionSelected,$option == liminal_reshow_start,FireBest LiminalityResearchTeamDialog,,,
+liminal_leave,DialogOptionSelected,$option == liminal_leave,DismissDialog,,,

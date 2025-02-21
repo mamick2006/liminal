@@ -1,0 +1,61 @@
+{
+  "designTypeColors": {
+    "Liminal": [
+      255,
+      165,
+      0,
+      255
+    ]
+  },
+  "ruleCommandPackages": [
+    "liminal.rules"
+  ],
+  "graphics": {
+    "illustrations": {
+      "liminal_liminality": "graphics/liminal/illustrations/liminality.png",
+      "liminal_ship_drive": "graphics/liminal/illustrations/ship_drive.png",
+      "liminal_bad_missile": "graphics/liminal/illustrations/bad_missile.png",
+      "liminal_bad_energy": "graphics/liminal/illustrations/bad_energy.png",
+      "liminal_bad_ballistic": "graphics/liminal/illustrations/bad_ballistic.png",
+      "liminal_bad_flux": "graphics/liminal/illustrations/bad_flux.png",
+      "liminal_heavy_armor": "graphics/liminal/illustrations/heavy_armor.png",
+      "liminal_insulated_engines": "graphics/liminal/illustrations/insulated_engines.png",
+      "liminal_high_maintenance": "graphics/liminal/illustrations/high_maintenance.png",
+      "liminal_flux_shunt": "graphics/liminal/illustrations/flux_shunt.png",
+      "liminal_extended_shield": "graphics/liminal/illustrations/extended_shield.png",
+      "liminal_negative_op": "graphics/liminal/illustrations/negative_op.png",
+      "liminal_negative_cost": "graphics/liminal/illustrations/negative_cost.png",
+      "liminal_weapon_range": "graphics/liminal/illustrations/weapon_range.png",
+      "liminal_weapon_damage": "graphics/liminal/illustrations/weapon_damage.png",
+      "liminal_salvage_gantry": "graphics/liminal/illustrations/salvage_gantry.png",
+      "liminal_ground_attack": "graphics/liminal/illustrations/ground_attack.png",
+      "liminal_bad_turrets": "graphics/liminal/illustrations/bad_turrets.png",
+      "liminal_maneuverability": "graphics/liminal/illustrations/maneuverability.png",
+      "liminal_fighter_defense": "graphics/liminal/illustrations/fighter_defense.png",
+      "liminal_rugged_construction": "graphics/liminal/illustrations/rugged_construction.png",
+      "liminal_fighter_recovery": "graphics/liminal/illustrations/fighter_recovery.png",
+      "liminal_burn_drive": "graphics/liminal/illustrations/burn_drive.png",
+      "liminal_efficiency": "graphics/liminal/illustrations/efficiency.png",
+      "liminal_cargo_expansion": "graphics/liminal/illustrations/cargo_expansion.png",
+      "liminal_weapon_op_reduction": "graphics/liminal/illustrations/weapon_op_reduction.png",
+      "liminal_missile_reload": "graphics/liminal/illustrations/missile_reload.png",
+      "liminal_fighter_bay": "graphics/liminal/illustrations/fighter_bay.png",
+      "liminal_time_flow": "graphics/liminal/illustrations/time_flow.png",
+      "liminal_regen": "graphics/liminal/illustrations/regen.png"
+    },
+    "characters": {
+      "liminal_elna": "graphics/liminal/portraits/elna.png",
+      "liminal_jarn": "graphics/liminal/portraits/jarn.png"
+    },
+    "icons": {
+      "liminal_intel_hullmods": "graphics/liminal/icons/intel_hullmods.png",
+      "liminal_intel_research": "graphics/liminal/icons/intel_research.png",
+      "liminal_intel_research1": "graphics/liminal/icons/intel_research1.png",
+      "liminal_intel_research2": "graphics/liminal/icons/intel_research2.png",
+      "liminal_intel_research3": "graphics/liminal/icons/intel_research3.png",
+      "liminal_intel_research4": "graphics/liminal/icons/intel_research4.png",
+      "liminal_line": "graphics/liminal/icons/line.png",
+      "liminal_question": "graphics/liminal/icons/question.png"
+    }
+  }
+}

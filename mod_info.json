@@ -1,0 +1,14 @@
+{
+  "id": "liminal",
+  "name": "Liminal - Custom, Upgradeable Hullmods",
+  "author": "Mamick",
+  "utility": "false",
+  "version": "1.0.0",
+  "description": "TODO",
+  "gameVersion": "0.97a-RC11",
+  "jars": [
+    "jars/Liminal.jar"
+  ],
+  "dependencies": [],
+  "modPlugin": "liminal.plugins.LiminalPlugin"
+}
