@@ -37,7 +37,7 @@
     {
         "major":1,
         "minor":0,
-        "patch":1 # Can be a number, character or string (1, 2, a, b, "-RC2", etc)
+        "patch":0 # Can be a number, character or string (1, 2, a, b, "-RC2", etc)
     },
 
     ###################################################################################
@@ -51,5 +51,5 @@
 
     # Point at a directly accessible text file; fetched from the online version file
     # The contents of said file will be shown for that mod in LunaLib's main menu version checker UI
-    # "changelogURL":"https://raw.githubusercontent.com/mamick2006/liminal/refs/heads/main/changelog.txt"
+    "changelogURL":"https://raw.githubusercontent.com/mamick2006/liminal/refs/heads/main/changelog.txt"
 }
