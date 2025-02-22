@@ -1,0 +1,18 @@
+v1.0.1
+Save compatible with previous version.
+Balance changes:
+- Credit base cost now scales with level. Added base cost to the Research tab so that you can see it increasing.
+
+UI Changes:
+- Added version checker support and changelog (that's this!)
+- Rewrote hullmod descriptions. Improved padding of effects to separate them from each other.
+- Removed upkeep cost display from hullmod description because it doesn't refresh upon applying hullmod.
+- Augmented Instruction title tooltips, so you can see how their effects/costs scale with level.
+- Added a check so you can't go above max level.
+- Fixed cost scaling clipping at low resolutions.
+- Added tooltips that explain why buttons are disabled when they are.
+
+
+
+v1.0.0
+- Initial release.
