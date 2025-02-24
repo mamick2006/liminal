@@ -56,6 +56,19 @@
       "liminal_intel_research4": "graphics/liminal/icons/intel_research4.png",
       "liminal_line": "graphics/liminal/icons/line.png",
       "liminal_question": "graphics/liminal/icons/question.png"
+    },
+    "dialog": {
+      "liminal_not_yet_our_time": "graphics/liminal/dialog/not_yet_our_time.png",
+      "liminal_ah_back_again": "graphics/liminal/dialog/ah_back_again.png",
+      "liminal_arent_you_getting": "graphics/liminal/dialog/arent_you_getting.png",
+      "liminal_back_again": "graphics/liminal/dialog/back_again.png",
+      "liminal_but_this_fight": "graphics/liminal/dialog/but_this_fight.png",
+      "liminal_hello_are_you": "graphics/liminal/dialog/hello_are_you.png",
+      "liminal_like_a_game": "graphics/liminal/dialog/like_a_game.png",
+      "liminal_no_not_you": "graphics/liminal/dialog/no_not_you.png",
+      "liminal_so_do_you_want": "graphics/liminal/dialog/so_do_you_want.png",
+      "liminal_well_i_suppose": "graphics/liminal/dialog/well_i_suppose.png",
+      "liminal_youve_won": "graphics/liminal/dialog/youve_won.png"
     }
   }
 }

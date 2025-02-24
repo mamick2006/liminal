@@ -19,21 +19,21 @@ liminal_galatia_busy,DialogOptionSelected,$option == liminal_galatia_busy,FireAl
 liminal_galatia_hear_them_out,DialogOptionSelected,$option == liminal_galatia_hear_them_out,"ShowImageVisual liminal_liminality
 SetTextHighlightColors ""255,165,0,255""
 SetTextHighlights ""Liminality""
-FireAll liminal_galatia_options","She introduces herself as Dr. Elna Rousseau, who along with her twin brother Jarn are the leads on the project (though you get the impression that's only true because no-one more important has noticed). They lead you far away from the main throughfares to a small laboratory in a quiet corner of the Academy. Inside, nestled in a bundle of machinery in the middle of the room, you see an orange glow emanating from what appears to be a floating geometric shape, about a meter across. The air around it seems... wrong somehow, as if reality itself is bending.
+FireAll liminal_galatia_options","She introduces herself as Dr. Elna Rousseau, who along with her twin brother Jarn are the leads on the project (though you get the impression that's only true because no-one more important has noticed). They lead you far away from the main thoroughfares to a small laboratory in a quiet corner of the Academy. Inside, nestled in a bundle of machinery in the middle of the room, you see an orange glow emanating from what appears to be a floating geometric shape, about a meter across. The air around it seems... wrong somehow, as if reality itself is bending.
 
 ""This,"" Elna says with barely contained excitement, ""is the Liminality. A bridge between what is and what could be! With the right application of resources and research, the laws of physics are our playground!""",,
 liminal_galatia_options_3,liminal_galatia_options,!$liminal_galatia_asked_3,,,liminal_galatia_where_from:Ask where they got it,
 liminal_galatia_where_from,DialogOptionSelected,$option == liminal_galatia_where_from,"$liminal_galatia_asked_3 = true 0
-FireAll liminal_galatia_options","""It was found by some scavengers on the edge of the sector literally embedded in rock, and eventually it found its way here."" Elna shifts uncomfortably. ""There's no mention of it in any Domain records we can find. Pretty much everyone tried to figure out what it was, even Coureuse, but after after a decade or so of no progress it was dismissed as a curiosity and left to gather dust.""
+FireAll liminal_galatia_options","""It was found by some scavengers on the edge of the sector literally embedded in rock, and eventually it found its way here."" Elna shifts uncomfortably. ""There's no mention of it in any Domain records we can find. Pretty much everyone tried to figure out what it was, even Coureuse, but after a decade or so of no progress it was dismissed as a curiosity and left to gather dust.""
 
 ""A curiosity until we got our chance at it,"" Jarn says, grinning.",,
 liminal_galatia_options_1,liminal_galatia_options,!$liminal_galatia_asked_1,,,liminal_galatia_how_work:Ask what it does,
 liminal_galatia_how_work,DialogOptionSelected,$option == liminal_galatia_how_work,"$liminal_galatia_asked_1 = true 0
 Liminal_ShowAndCreatePerson liminal_jarn
 SetTextHighlightColors ""155,255,0,255"" ""255,165,0,255"" ""155,255,0,255"" ""155,255,0,255""
-SetTextHighlights ""Linkage"" ""Liminality"" ""Instruction"" ""Linkage"" ","""Well, we're not not entirely sure, to be honest. Our best guess is that this, whatever it is, creates a connection between our universe and... something else. Somewhere else. We can exploit that connection to locally change the rules of physics, almost like programming reality,"" Jarn says. ""Our research is still in early days,""
+SetTextHighlights ""Linkage"" ""Liminality"" ""Instruction"" ""Linkage"" ","""Well, we're not entirely sure, to be honest. Our best guess is that this, whatever it is, creates a connection between our universe and... something else. Somewhere else. We can exploit that connection to locally change the rules of physics, almost like programming reality,"" Jarn says. ""Our research is still in early days,""
 
-""So far, we know that we need an Linkage, that links something next to the Liminality to a distant object, and an Instruction, that tells the Linkage what to do. For example...""
+""So far, we know that we need a Linkage, that links something next to the Liminality to a distant object, and an Instruction, that tells the Linkage what to do. For example...""
 
 He tosses you a sheet of metal with a symbol inscribed on it, then tosses a second sheet towards the artifact. The second sheet has a dense mass of symbols, including the one on the first. ",liminal_galatia_catch_sheet:Catch the sheet,
 liminal_galatia_catch_sheet,DialogOptionSelected,$option == liminal_galatia_catch_sheet,"SetTextHighlightColors ""255,165,0,255"" ""155,255,0,255""
@@ -97,7 +97,7 @@ Gained access to the Liminality. Check major events in your intel screen to cont
 liminal_research_dialog_first_time,LiminalityResearchTeamDialog,!$global.liminalSeenStarting,"$global.liminalSeenStarting = true
 Liminal_ShowAndCreatePerson liminal_jarn","On your screen, you see Jarn in the lab next to the floating, glowing Liminality.
 
-""Thanks again for the credits! Don't tell Elna I said this, but you have no idea how close we were to having to shut everything down,"" Jorn says. ""Now we can get back to work! And also eat real food!""
+""Thanks again for the credits! Don't tell Elna I said this, but you have no idea how close we were to having to shut everything down,"" Jarn says. ""Now we can get back to work! And also eat real food!""
 
 ""And speaking of credits,"" Jarn continues, ""feel free to invest as much as you'd like. The more funding we have, the faster we can give you shiny new toys to play with. You want cooler ships, right? You can also provide some resources directly.""
 

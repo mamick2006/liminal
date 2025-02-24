@@ -1,7 +1,7 @@
 {
   "liminal_instructions": {
-    "ship_drive_name": "Alcubierre Drive",
-    "ship_drive": "We've found Instructions that bend space-time, allowing us to compress and expand space around a Linkage. Unfortunately, hyperspace is too unstable for this to speed up travel, but I'm sure you can imagine the combat applications.",
+    "ship_drive_name": "Variant Alcubierre Drive",
+    "ship_drive": "We've found Instructions that bend space-time, compressing and expanding space around a Linkage. Unfortunately, hyperspace is too unstable for this to speed up travel, but I'm sure you can imagine the combat applications.",
     "bad_missile_name": "Missile Dampening",
     "bad_missile": "We can create a field that absorbs explosive energy, reducing missile rate of fire, but stabilizing the Linkage. Missile schmissile.",
     "bad_energy_name": "Energy Diffusion",
@@ -43,7 +43,7 @@
     "fighter_recovery_name": "Causality Recovery",
     "fighter_recovery": "By manipulating local causality around fighter bays, the Liminality can make it so that some of those unlucky bastards didn't actually die. Don't ask about the ethical implications.",
     "burn_drive_name": "Hyperspace Alcubierre Drive",
-    "burn_drive": "We managed to make the Alcubierre Drive work in hyperspace! It's not as simple as in normal space, but it works.",
+    "burn_drive": "Unlike existing Alcubierre Drives, our version can now operate in hyperspace! It's not as simple as in normal space, but it works.",
     "efficiency_name": "Resource Optimization",
     "efficiency": "Through precise manipulation of molecular interactions, the Liminality improves the efficiency of ship systems, reducing supply and fuel consumption. Eating food is now optional!",
     "cargo_expansion_name": "Spatial Expansion",

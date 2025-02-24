@@ -1,0 +1,1503 @@
+{
+    "hullName": "liminal_boss_core",
+    "hullId": "liminal_boss_core",
+    "hullSize": "CAPITAL_SHIP",
+    "style": "OMEGA",
+    "spriteName": "graphics/liminal/ships/boss_core.png",
+    "height": 256,
+    "width": 256,
+    "center": [
+        127,
+        129
+    ],
+    "moduleAnchor": [
+        0,
+        0
+    ],
+    "collisionRadius": 128,
+    "coversColor": "",
+    "shieldCenter": [
+        8,
+        -1.5
+    ],
+    "builtInMods": [
+        "liminal_boss_hullmod"
+    ],
+    "shieldRadius": 128.5,
+    "viewOffset": 0,
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 23.0,
+            "locations": [
+                411,
+                -306
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 330.6,
+            "locations": [
+                -555,
+                785
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 60.3,
+            "locations": [
+                346,
+                -672
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 126.8,
+            "locations": [
+                666,
+                -583
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 170.3,
+            "locations": [
+                -823,
+                -596
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 80.1,
+            "locations": [
+                -77,
+                -689
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 3.8,
+            "locations": [
+                33,
+                -802
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 251.4,
+            "locations": [
+                -213,
+                -972
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 144.8,
+            "locations": [
+                322,
+                -388
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 25.9,
+            "locations": [
+                753,
+                -179
+            ]
+        },
+        {
+            "id": "WS 011",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 292.6,
+            "locations": [
+                -282,
+                -585
+            ]
+        },
+        {
+            "id": "WS 012",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 176.3,
+            "locations": [
+                214,
+                -81
+            ]
+        },
+        {
+            "id": "WS 013",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 125.6,
+            "locations": [
+                -414,
+                814
+            ]
+        },
+        {
+            "id": "WS 014",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 171.7,
+            "locations": [
+                -867,
+                231
+            ]
+        },
+        {
+            "id": "WS 015",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 293.4,
+            "locations": [
+                -227,
+                873
+            ]
+        },
+        {
+            "id": "WS 016",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 5.4,
+            "locations": [
+                154,
+                -531
+            ]
+        },
+        {
+            "id": "WS 017",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 136.0,
+            "locations": [
+                -281,
+                523
+            ]
+        },
+        {
+            "id": "WS 018",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 336.7,
+            "locations": [
+                249,
+                501
+            ]
+        },
+        {
+            "id": "WS 019",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 136.7,
+            "locations": [
+                -568,
+                103
+            ]
+        },
+        {
+            "id": "WS 020",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 1.5,
+            "locations": [
+                496,
+                322
+            ]
+        },
+        {
+            "id": "WS 021",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 38.4,
+            "locations": [
+                62,
+                -975
+            ]
+        },
+        {
+            "id": "WS 022",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 344.4,
+            "locations": [
+                772,
+                -625
+            ]
+        },
+        {
+            "id": "WS 023",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 331.2,
+            "locations": [
+                -604,
+                -693
+            ]
+        },
+        {
+            "id": "WS 024",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 227.8,
+            "locations": [
+                -65,
+                943
+            ]
+        },
+        {
+            "id": "WS 025",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 162.5,
+            "locations": [
+                -670,
+                550
+            ]
+        },
+        {
+            "id": "WS 026",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 45.5,
+            "locations": [
+                -664,
+                -550
+            ]
+        },
+        {
+            "id": "WS 027",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 317.3,
+            "locations": [
+                387,
+                -494
+            ]
+        },
+        {
+            "id": "WS 028",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 8.8,
+            "locations": [
+                131,
+                -161
+            ]
+        },
+        {
+            "id": "WS 029",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 128.6,
+            "locations": [
+                677,
+                727
+            ]
+        },
+        {
+            "id": "WS 030",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 23.0,
+            "locations": [
+                197,
+                -416
+            ]
+        },
+        {
+            "id": "WS 031",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 198.7,
+            "locations": [
+                -930,
+                133
+            ]
+        },
+        {
+            "id": "WS 032",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 261.0,
+            "locations": [
+                -853,
+                -277
+            ]
+        },
+        {
+            "id": "WS 033",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 47.4,
+            "locations": [
+                1004,
+                20
+            ]
+        },
+        {
+            "id": "WS 034",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 31.4,
+            "locations": [
+                -38,
+                -67
+            ]
+        },
+        {
+            "id": "WS 035",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 164.7,
+            "locations": [
+                -487,
+                -726
+            ]
+        },
+        {
+            "id": "WS 036",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 153.8,
+            "locations": [
+                -709,
+                360
+            ]
+        },
+        {
+            "id": "WS 037",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 319.6,
+            "locations": [
+                351,
+                487
+            ]
+        },
+        {
+            "id": "WS 038",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 21.3,
+            "locations": [
+                638,
+                -748
+            ]
+        },
+        {
+            "id": "WS 039",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0.6,
+            "locations": [
+                -245,
+                -117
+            ]
+        },
+        {
+            "id": "WS 040",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 19.2,
+            "locations": [
+                -387,
+                299
+            ]
+        },
+        {
+            "id": "WS 041",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 310.1,
+            "locations": [
+                493,
+                737
+            ]
+        },
+        {
+            "id": "WS 042",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 46.6,
+            "locations": [
+                119,
+                293
+            ]
+        },
+        {
+            "id": "WS 043",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 236.7,
+            "locations": [
+                191,
+                152
+            ]
+        },
+        {
+            "id": "WS 044",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 80.7,
+            "locations": [
+                278,
+                -170
+            ]
+        },
+        {
+            "id": "WS 045",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 143.3,
+            "locations": [
+                838,
+                208
+            ]
+        },
+        {
+            "id": "WS 046",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 41.9,
+            "locations": [
+                -815,
+                29
+            ]
+        },
+        {
+            "id": "WS 047",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 334.2,
+            "locations": [
+                553,
+                -689
+            ]
+        },
+        {
+            "id": "WS 048",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 327.5,
+            "locations": [
+                -275,
+                -798
+            ]
+        },
+        {
+            "id": "WS 049",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 316.5,
+            "locations": [
+                667,
+                589
+            ]
+        },
+        {
+            "id": "WS 050",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 278.6,
+            "locations": [
+                -678,
+                711
+            ]
+        },
+        {
+            "id": "WS 051",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 11.6,
+            "locations": [
+                -236,
+                756
+            ]
+        },
+        {
+            "id": "WS 052",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 309.4,
+            "locations": [
+                -156,
+                523
+            ]
+        },
+        {
+            "id": "WS 053",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 200.5,
+            "locations": [
+                -344,
+                -43
+            ]
+        },
+        {
+            "id": "WS 054",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 28.1,
+            "locations": [
+                59,
+                579
+            ]
+        },
+        {
+            "id": "WS 055",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 265.8,
+            "locations": [
+                885,
+                -372
+            ]
+        },
+        {
+            "id": "WS 056",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 267.5,
+            "locations": [
+                -681,
+                -73
+            ]
+        },
+        {
+            "id": "WS 057",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 35.4,
+            "locations": [
+                220,
+                -999
+            ]
+        },
+        {
+            "id": "WS 058",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 224.6,
+            "locations": [
+                -711,
+                -383
+            ]
+        },
+        {
+            "id": "WS 059",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 190.9,
+            "locations": [
+                -432,
+                -841
+            ]
+        },
+        {
+            "id": "WS 060",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 193.7,
+            "locations": [
+                424,
+                -96
+            ]
+        },
+        {
+            "id": "WS 061",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 102.9,
+            "locations": [
+                170,
+                -727
+            ]
+        },
+        {
+            "id": "WS 062",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 227.4,
+            "locations": [
+                -445,
+                -341
+            ]
+        },
+        {
+            "id": "WS 063",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 142.2,
+            "locations": [
+                -331,
+                -706
+            ]
+        },
+        {
+            "id": "WS 064",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 78.1,
+            "locations": [
+                -341,
+                698
+            ]
+        },
+        {
+            "id": "WS 065",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 265.5,
+            "locations": [
+                633,
+                -212
+            ]
+        },
+        {
+            "id": "WS 066",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 155.0,
+            "locations": [
+                97,
+                840
+            ]
+        },
+        {
+            "id": "WS 067",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 128.5,
+            "locations": [
+                54,
+                -547
+            ]
+        },
+        {
+            "id": "WS 068",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 272.7,
+            "locations": [
+                847,
+                -53
+            ]
+        },
+        {
+            "id": "WS 069",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 95.5,
+            "locations": [
+                -593,
+                -124
+            ]
+        },
+        {
+            "id": "WS 070",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 209.6,
+            "locations": [
+                -944,
+                -208
+            ]
+        },
+        {
+            "id": "WS 071",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 162.5,
+            "locations": [
+                -128,
+                -908
+            ]
+        },
+        {
+            "id": "WS 072",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 3.2,
+            "locations": [
+                797,
+                415
+            ]
+        },
+        {
+            "id": "WS 073",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 296.4,
+            "locations": [
+                -975,
+                41
+            ]
+        },
+        {
+            "id": "WS 074",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 52.9,
+            "locations": [
+                -437,
+                592
+            ]
+        },
+        {
+            "id": "WS 075",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 131.5,
+            "locations": [
+                -587,
+                451
+            ]
+        },
+        {
+            "id": "WS 076",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 354.8,
+            "locations": [
+                124,
+                -865
+            ]
+        },
+        {
+            "id": "WS 077",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 195.5,
+            "locations": [
+                -925,
+                -48
+            ]
+        },
+        {
+            "id": "WS 078",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 279.2,
+            "locations": [
+                889,
+                -475
+            ]
+        },
+        {
+            "id": "WS 079",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 81.0,
+            "locations": [
+                156,
+                442
+            ]
+        },
+        {
+            "id": "WS 080",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 238.5,
+            "locations": [
+                3,
+                735
+            ]
+        },
+        {
+            "id": "WS 081",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 274.7,
+            "locations": [
+                274,
+                800
+            ]
+        },
+        {
+            "id": "WS 082",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 147.7,
+            "locations": [
+                788,
+                589
+            ]
+        },
+        {
+            "id": "WS 083",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 316.4,
+            "locations": [
+                -721,
+                245
+            ]
+        },
+        {
+            "id": "WS 084",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 25.4,
+            "locations": [
+                -598,
+                -412
+            ]
+        },
+        {
+            "id": "WS 085",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 196.4,
+            "locations": [
+                -474,
+                713
+            ]
+        },
+        {
+            "id": "WS 086",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 201.9,
+            "locations": [
+                357,
+                137
+            ]
+        },
+        {
+            "id": "WS 087",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 209.7,
+            "locations": [
+                -136,
+                763
+            ]
+        },
+        {
+            "id": "WS 088",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 233.4,
+            "locations": [
+                295,
+                242
+            ]
+        },
+        {
+            "id": "WS 089",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 309.4,
+            "locations": [
+                641,
+                236
+            ]
+        },
+        {
+            "id": "WS 090",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 187.4,
+            "locations": [
+                -804,
+                474
+            ]
+        },
+        {
+            "id": "WS 091",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 288.1,
+            "locations": [
+                515,
+                497
+            ]
+        },
+        {
+            "id": "WS 092",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 157.8,
+            "locations": [
+                953,
+                -74
+            ]
+        },
+        {
+            "id": "WS 093",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 167.2,
+            "locations": [
+                84,
+                153
+            ]
+        },
+        {
+            "id": "WS 094",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 142.9,
+            "locations": [
+                555,
+                -537
+            ]
+        },
+        {
+            "id": "WS 095",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 12.1,
+            "locations": [
+                -4,
+                -252
+            ]
+        },
+        {
+            "id": "WS 096",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 65.2,
+            "locations": [
+                432,
+                218
+            ]
+        },
+        {
+            "id": "WS 097",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 165.6,
+            "locations": [
+                302,
+                -830
+            ]
+        },
+        {
+            "id": "WS 098",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 88.4,
+            "locations": [
+                141,
+                980
+            ]
+        },
+        {
+            "id": "WS 099",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 17.0,
+            "locations": [
+                947,
+                283
+            ]
+        },
+        {
+            "id": "WS 100",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 337.3,
+            "locations": [
+                478,
+                -613
+            ]
+        },
+        {
+            "id": "WS 101",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 26.6,
+            "locations": [
+                -813,
+                -423
+            ]
+        },
+        {
+            "id": "WS 102",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 346.3,
+            "locations": [
+                -552,
+                307
+            ]
+        },
+        {
+            "id": "WS 103",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 51.9,
+            "locations": [
+                -712,
+                29
+            ]
+        },
+        {
+            "id": "WS 104",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 84.8,
+            "locations": [
+                472,
+                16
+            ]
+        },
+        {
+            "id": "WS 105",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 289.6,
+            "locations": [
+                515,
+                -347
+            ]
+        },
+        {
+            "id": "WS 106",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 124.5,
+            "locations": [
+                117,
+                -328
+            ]
+        },
+        {
+            "id": "WS 107",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 167.9,
+            "locations": [
+                -242,
+                -454
+            ]
+        },
+        {
+            "id": "WS 108",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 189.0,
+            "locations": [
+                -319,
+                373
+            ]
+        },
+        {
+            "id": "WS 109",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 111.5,
+            "locations": [
+                -53,
+                367
+            ]
+        },
+        {
+            "id": "WS 110",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 47.0,
+            "locations": [
+                -535,
+                -288
+            ]
+        },
+        {
+            "id": "WS 111",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 5.7,
+            "locations": [
+                529,
+                168
+            ]
+        },
+        {
+            "id": "WS 112",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 252.3,
+            "locations": [
+                628,
+                88
+            ]
+        },
+        {
+            "id": "WS 113",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 244.0,
+            "locations": [
+                -910,
+                454
+            ]
+        },
+        {
+            "id": "WS 114",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 308.8,
+            "locations": [
+                681,
+                362
+            ]
+        },
+        {
+            "id": "WS 115",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 309.4,
+            "locations": [
+                957,
+                -213
+            ]
+        },
+        {
+            "id": "WS 116",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 292.9,
+            "locations": [
+                -186,
+                408
+            ]
+        },
+        {
+            "id": "WS 117",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 77.0,
+            "locations": [
+                -28,
+                504
+            ]
+        },
+        {
+            "id": "WS 118",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 279.8,
+            "locations": [
+                500,
+                -805
+            ]
+        },
+        {
+            "id": "WS 119",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 45.3,
+            "locations": [
+                -569,
+                655
+            ]
+        },
+        {
+            "id": "WS 120",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 184.7,
+            "locations": [
+                -22,
+                -433
+            ]
+        }
+    ],
+    "engineSlots": [],
+    "bounds": [
+        -125,
+        -3.5,
+        -119,
+        -40,
+        -91,
+        -86.5,
+        -52.5,
+        -119,
+        13.5,
+        -125,
+        76,
+        -102.5,
+        121.5,
+        -43,
+        121.5,
+        43,
+        76,
+        102.5,
+        13.5,
+        125,
+        -52.5,
+        119,
+        -91,
+        86.5,
+        -119,
+        40,
+        -125,
+        3.5
+    ]
+}
