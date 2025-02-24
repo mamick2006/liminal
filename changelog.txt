@@ -2,7 +2,7 @@ v1.0.2
 Save compatible with previous version. Can still be added to existing saves.
 
 Features:
-- Added the final boss of the not yet implemented super end-game crisis. It's not yet fully tuned or balanced, but if you want to fight it to see if you can win, run `LiminalPrepareToDie` in the console. It should be almost impossible to beat, especially on vanilla. I'll add more difficulty options to it later.
+- Added the final boss of the not yet implemented super end-game crisis. It's not yet fully tuned or balanced, but if you want test your best fleet to see if you can win, run `LiminalPrepareToDie` in Console Commands. It should be almost impossible to beat, especially on vanilla. I'll add more difficulty options to it later.
 
 Balance changes:
 - Made research progress investment scaling slightly more generous with increased credits.
