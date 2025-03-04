@@ -1,6 +1,6 @@
 fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
 liminal_settingsHeader,Liminal Header,Header,Liminal,,,,,
-liminal_rpmult,Research Points (RP) Gained,Int,4,,How many research points you gain each time a Liminal event stage completes. Not retroactive. You may want to change when the crisis begins below.,0,10,
+liminal_rpmult,Research Points (RP) Gained,Int,4,,How many research points you gain each time a Liminal event stage completes. Not retroactive. You may want to change when the crisis begins below.,0,15,
 liminal_costmulttemplate,Template Cost Multiplier,Double,1.0,,Multiplier on the monthly credit cost of Liminal Templates.,0,5.0,
 ,,,,,,,,
 liminal_crisisHeader,Crisis Header,Header,Liminal Crisis,,,,,

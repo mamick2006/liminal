@@ -11,6 +11,7 @@ Features:
 Balance changes:
 - Switched Liminal boss burn drive for microburn.
 - Boss now has flux capacitators and vents, and hullmods
+- Slightly increased the maximum setting for research points gained from 10 to 15.
 
 Bugfixes:
 - None?
