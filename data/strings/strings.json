@@ -57,6 +57,8 @@
     "time_flow_name": "Combat Acceleration",
     "time_flow": "As the ship takes damage, the Liminality increasingly warps local time flow, allowing the ship to act more quickly relative to its surroundings. Move super fast when you're in danger! It makes it easier to dodge.",
     "regen_name": "Material Reconstruction",
-    "regen": "The Liminality reverses entropy in damaged sections of the ship, gradually regenerating hull and armor at rates based on hull size. We tried to make causal loops work here, but uh... yeah. Don't ask."
+    "regen": "The Liminality reverses entropy in damaged sections of the ship, gradually regenerating hull and armor at rates based on hull size. We tried to make causal loops work here, but uh... yeah. Don't ask.",
+    "damage_cap_name": "Temporal Damage Diffusion",
+    "damage_cap": "By diffusing incoming damage across multiple timelines, we can limit how much hull damage the ship takes in a single second. Your alternate timelines may die but that's a risk we're willing to take."
   }
 }

@@ -1,0 +1,9 @@
+{
+  "liminal_damage_cap": [
+    {
+      "file": "sounds/liminal/damage_cap.ogg",
+      "pitch": 1,
+      "volume": 1.0
+    },
+  ],
+}

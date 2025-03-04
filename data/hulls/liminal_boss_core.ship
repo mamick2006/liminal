@@ -2,7 +2,7 @@
     "hullName": "liminal_boss_core",
     "hullId": "liminal_boss_core",
     "hullSize": "CAPITAL_SHIP",
-    "style": "OMEGA",
+    "style": "liminal_style",
     "spriteName": "graphics/liminal/ships/boss_core.png",
     "height": 256,
     "width": 256,
@@ -21,7 +21,6 @@
         -1.5
     ],
     "builtInMods": [
-        "liminal_boss_hullmod"
     ],
     "shieldRadius": 128.5,
     "viewOffset": 0,

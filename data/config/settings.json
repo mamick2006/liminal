@@ -41,7 +41,8 @@
       "liminal_missile_reload": "graphics/liminal/illustrations/missile_reload.png",
       "liminal_fighter_bay": "graphics/liminal/illustrations/fighter_bay.png",
       "liminal_time_flow": "graphics/liminal/illustrations/time_flow.png",
-      "liminal_regen": "graphics/liminal/illustrations/regen.png"
+      "liminal_regen": "graphics/liminal/illustrations/regen.png",
+      "liminal_damage_cap": "graphics/liminal/illustrations/damage_cap.png"
     },
     "characters": {
       "liminal_elna": "graphics/liminal/portraits/elna.png",

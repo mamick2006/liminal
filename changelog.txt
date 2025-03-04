@@ -1,3 +1,27 @@
+v1.0.3
+Save compatible with previous version. Can still be added to existing saves.
+
+Most of the changes in this version are internal, to prepare for adding the Liminal faction and crisis. Many of the changes will only be visible if you manually trigger the boss in the console.
+
+Features:
+- Added settings to control the Liminal crisis, boss and crisis difficulty, and boss computer use (to make it playable on all hardware). These settings will change a lot of how the boss and crisis work, and should provide a variety of meaningful challenges.
+- Added a new Instruction effect that limits the damage you can take in a second to a percentage of your max hull.
+- Liminal faction and boss ships will now use special Liminal hullmods, gaining the effect of all positive Instructions at once (strength depends on the difficulty). Since the above effect that limits the damage you can take in a second is also a positive Instruction, this provides some defense against common cheeses that could otherwise one-shot the boss.
+
+Balance changes:
+- Switched Liminal boss burn drive for microburn.
+- Boss now has flux capacitators and vents, and hullmods
+
+Bugfixes:
+- None?
+
+UI Changes:
+- Added hull style for Liminal faction
+
+Other:
+- Refactored how ships are randomly generated to support the Liminal faction. This refactoring includes the boss, and changes how its generated.
+- Various internal changes.
+
 v1.0.2
 Save compatible with previous version. Can still be added to existing saves.
 
