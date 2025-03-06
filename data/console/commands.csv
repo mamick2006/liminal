@@ -1,3 +1,4 @@
 command,class,tags,syntax,help
-AddResearchPoints,liminal.scripts.LiminalAddRP,"liminal,campaign",AddResearchPoints <amount>,Adds <amount> Liminality Research Points
+LiminalAddRP,liminal.scripts.LiminalAddRP,"liminal,campaign",LiminalAddRP <amount>,Adds <amount> Liminality Research Points
 LiminalPrepareToDie,liminal.scripts.LiminalFightBoss,"liminal,campaign",LiminalPrepareToDie,Fight the unthinkable
+LiminalOverrideRestrictions,liminal.scripts.LiminalOverrideRestrictions,"liminal,campaign",LiminalOverrideRestrictions,Ignore current OP and per category restrictions when adding instructions to templates

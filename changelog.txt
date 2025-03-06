@@ -1,3 +1,15 @@
+v1.0.4
+Save compatible with previous version. Can be added to existing saves.
+
+UI:
+- Added some text when templates are empty, to give you an idea of what to do.
+
+Other:
+- Renamed AddResearchPoints to LiminalAddRP.
+- Added a command to ignore current OP and per category restrictions when adding instructions to templates (mostly for development).
+- Updated the version number since I forgot to update it to v1.0.3.
+
+
 v1.0.3
 Save compatible with previous version. Can still be added to existing saves.
 
