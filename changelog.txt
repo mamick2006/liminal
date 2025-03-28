@@ -1,7 +1,7 @@
 v1.0.5
 Probably not save compatible since it's updating to 0.98a??? Can be added to existing saves, but it's for 0.98a so I'm less sure why you would?????
 
-Updated to 0.98a.
+Updated to 0.98a. Now compiles with Java 17.
 
 Bugfixes:
 - Added back in deprecated hullmods, for backwards compatibility. (This was actually done in a hotfix in the previous version)
