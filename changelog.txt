@@ -1,3 +1,14 @@
+v1.0.5
+Probably not save compatible since it's updating to 0.98a??? Can be added to existing saves, but it's for 0.98a so I'm less sure why you would?????
+
+Updated to 0.98a.
+
+Bugfixes:
+- Added back in deprecated hullmods, for backwards compatibility. (This was actually done in a hotfix in the previous version)
+- Cannot remove negative Instructions if that would exceed the maximum OP limit.
+
+I also did a bunch of work for the super end-game crisis, which is almost done, but was distracted by 0.98a actually releasing wtf.
+
 v1.0.4
 Save compatible with previous version. Can be added to existing saves.
 

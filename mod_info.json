@@ -3,9 +3,9 @@
   "name": "Liminal - Custom, Upgradeable Hullmods",
   "author": "Mamick",
   "utility": "false",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "TODO",
-  "gameVersion": "0.97a-RC11",
+  "gameVersion": "0.98a",
   "jars": [
     "jars/Liminal.jar"
   ],
