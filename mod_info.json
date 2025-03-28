@@ -3,8 +3,8 @@
   "name": "Liminal - Custom, Upgradeable Hullmods",
   "author": "Mamick",
   "utility": "false",
-  "version": "1.0.5",
-  "description": "TODO",
+  "version": "1.0.6",
+  "description": "Create custom, upgradeable hullmods that rewrite reality. Unlock, upgrade, and slot together different effects into templates, that can be equipped as hullmods onto your ships.",
   "gameVersion": "0.98a",
   "jars": [
     "jars/Liminal.jar"
