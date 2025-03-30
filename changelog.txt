@@ -1,3 +1,11 @@
+v1.0.7
+Save compatible. Can be added to existing saves
+
+- You no longer need to have the ability to use gates to gain access to the Liminality research. You just need to visit the academy. In exchange, the initial payment is now 30,000 credits.
+- Hide hullmods that should not be visible in the codex.
+- Instruction cost scales more aggressively as the level increases, instead of linearly, to balance late game slightly more. Scales with the square of the level multiplier for normal instructions, and the cube for special and logistic instructions. You might want to check how much you're spending per month, though this should only affect late game much.
+- Always display instruction cost in the research screen.
+
 v1.0.6
 Save compatible. Can be added to existing saves
 

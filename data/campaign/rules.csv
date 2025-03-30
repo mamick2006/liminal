@@ -4,16 +4,12 @@ id,trigger,conditions,script,text,options,notes
 liminal_galatia_start0,PopulateOptions,"$id == station_galatia_academy
 !$player.liminal_hullmods_enabled",,"Out of the corner of your eye, you see an excited group of researchers wave you down.",99:liminal_galatia_liminalitystart:Talk to the researchers,
 liminal_galatia_start_c1,PopulateOptions,"$id == station_galatia_academy
-$player.credits < 10000","SetTooltip liminal_galatia_liminalitystart ""Requires at least 10,000 credits and ability to use gates.""
-SetTooltipHighlights liminal_galatia_liminalitystart ""10,000"" ""gates""
+$player.credits < 30000","SetTooltip liminal_galatia_liminalitystart ""Requires at least 30,000 credits.""
+SetTooltipHighlights liminal_galatia_liminalitystart ""30,000""
 SetEnabled liminal_galatia_liminalitystart false",,,
-liminal_galatia_start_c2,PopulateOptions,"$id == station_galatia_academy
-!$global.playerCanUseGates","SetTooltip liminal_galatia_liminalitystart ""Requires at least 10,000 credits and ability to use gates.""
-SetTooltipHighlights liminal_galatia_liminalitystart ""10,000"" ""gates""
-SetEnabled liminal_galatia_liminalitystart false",,,
-liminal_galatia_liminalitystart,DialogOptionSelected,$option == liminal_galatia_liminalitystart,Liminal_ShowAndCreatePerson liminal_elna,"You walk up to the group of researchers. A few faces seem familiar from your previous visits to the Academy, but based on their ages most of them are students or post-docs.
+liminal_galatia_liminalitystart,DialogOptionSelected,$option == liminal_galatia_liminalitystart,Liminal_ShowAndCreatePerson liminal_elna,"You walk up to the group of researchers. Most appear to be students or post-docs, judging by their ages and the slightly manic look of sleep deprivation in their eyes.
 
-""$PlayerSirOrMadam! A moment of your time, please?"" One of them, a younger woman with a ponytail and dark circles under her eyes, steps forward. ""We've heard about your exploits working with Provost Biard! How you played a critical role in testing the Janus Device, amongst other things. We have the opportunity of a lifetime for you.""","liminal_galatia_hear_them_out:Hear them out
+""$PlayerSirOrMadam! A moment of your time, please?"" One of them, a younger woman with a ponytail and dark circles under her eyes, steps forward. ""We've heard so much about your accomplishments! Your reputation precedes you - a successful independent captain, known for supporting scientific advancement. We have the opportunity of a lifetime for you.""","liminal_galatia_hear_them_out:Hear them out
 liminal_galatia_busy:Tell them you're busy",
 liminal_galatia_busy,DialogOptionSelected,$option == liminal_galatia_busy,FireAll PopulateOptions,"""Of course, of course. But please, come back when you have time - this could revolutionize everything!""",,
 liminal_galatia_hear_them_out,DialogOptionSelected,$option == liminal_galatia_hear_them_out,"ShowImageVisual liminal_liminality
@@ -53,10 +49,10 @@ liminal_galatia_options_2,liminal_galatia_options,!$liminal_galatia_asked_2,,,li
 liminal_galatia_what_need,DialogOptionSelected,$option == liminal_galatia_what_need,"$liminal_galatia_asked_2 = true 0
 ShowImageVisual liminal_liminality
 SetTextHighlightColors h h ""255,165,0,255"" h h
-SetTextHighlights ""ongoing funding"" ""10,000"" ""Liminality"" ""hullmods"" ""operating costs""
+SetTextHighlights ""ongoing funding"" ""30,000"" ""Liminality"" ""hullmods"" ""operating costs""
 FireAll liminal_galatia_options","""We need funding. Significant funding. You would not believe how much energy and resources it takes to run this even at a basic level. If we did everything we wanted, it would quickly bankrupt even the Academy."" Elna shakes her head.
 
-""But an independent Captain? One who has already achieved great success, whose star is ascendant? That could work. We're counting on an investment from you, not just now but in the future. Of course we'd need a down-payment, in addition to ongoing funding. Say 10,000 credits."" You can tell that they're on the verge of running out of funds.
+""But an independent Captain like yourself? Someone with the resources and vision to see the potential here? That could work. We're counting on an investment from you, not just now but in the future. Of course we'd need a down-payment, in addition to ongoing funding. Say 30,000 credits."" You can tell that they're on the verge of running out of funds.
 
 ""But in exchange, we'll use the Liminality to enhance your fleet in unprecedented ways! Special hullmods that do the impossible. You want a ship that can travel back in time? That can shoot missiles that destroy stars? It's yours. Theoretically of course, once we do the research. And of course you'll need to pay operating costs of these modifications.""",,
 liminal_galatia_options_4,liminal_galatia_options,"!$liminal_galatia_asked_4",,,"liminal_galatia_dangerous:""Sounds dangerous.""",
@@ -76,7 +72,7 @@ liminal_galatia_options_6,liminal_galatia_options,"$liminal_galatia_asked_1
 $liminal_galatia_asked_2
 $liminal_galatia_asked_3
 $liminal_galatia_asked_4
-$liminal_galatia_asked_5",,,"liminal_galatia_accept:Pay 10,000 credits
+$liminal_galatia_asked_5",,,"liminal_galatia_accept:Pay 30,000 credits
 liminal_galatia_refuse:Decline for now",
 liminal_galatia_refuse,DialogOptionSelected,$option == liminal_galatia_refuse,FireAll PopulateOptions,,,
 liminal_galatia_accept,DialogOptionSelected,$option == liminal_galatia_accept,"SetTextHighlightColors h ""255,165,0,255"" h
@@ -84,7 +80,7 @@ SetTextHighlights ""Gained access to the"" ""Liminality"" ""Check major events i
 Liminal_EnableHullmods
 Liminal_AddRP 5
 Liminal_ShowAndCreatePerson liminal_elna
-RemoveCommodity credits 10000
+RemoveCommodity credits 30000
 $player.liminal_hullmods_enabled = true
 FireAll PopulateOptions","The researchers quickly get to work, setting up equipment and making calculations. Within an hour, they present you with what looks like a standard modspec, though even that pulses with a faint blue glow.
 
