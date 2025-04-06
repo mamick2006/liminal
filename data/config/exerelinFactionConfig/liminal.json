@@ -1,0 +1,26 @@
+{
+  "playableFaction": false,
+  "enabledByDefault": false,
+  "corvusCompatible": true,
+  "dropPrisoners": false,
+  "hostileToAll": 3,
+  "noRandomizeRelations": true,
+  "morality": "evil",
+  "diplomacyTraits": [
+    "predatory",
+    "irredentist",
+    "foreverwar",
+    "envious",
+    "monstrous",
+    "devious"
+  ],
+  "colonyExpeditionChance": 0.1,
+  "maxRelationships": {
+    "default": -1.0,
+    "player": -1.0,
+  },
+  "spawnMarketShare": 0.0,
+  "noMissionTarget": true,
+  "allowAgentActions": false,
+  "allowPrisonerActions": false,
+}

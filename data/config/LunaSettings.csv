@@ -4,16 +4,16 @@ liminal_rpmult,Research Points (RP) Gained,Int,4,,How many research points you g
 liminal_costmulttemplate,Template Cost Multiplier,Double,1.0,,Multiplier on the monthly credit cost of Liminal Templates.,0,5.0,
 ,,,,,,,,
 liminal_crisisHeader,Crisis Header,Header,Liminal Crisis,,,,,
-liminal_crisis_enabled,Crisis Enabled,Boolean,true,,[Currently has no effect] Whether the Liminal super endgame crisis is enabled.,,,
-liminal_crisis_begins,Crisis RP Begins At,Int,300,,[Currently has no effect] How many RP before the crisis begins.,0,3000,
-liminal_crisis_difficulty,Crisis Difficulty,Radio,Standard,"Easy, Standard, Hard","[Currently has no effect] Crisis difficulty. Recommendations:
+liminal_crisis_enabled,Crisis Enabled,Boolean,true,,Whether the Liminal super endgame crisis is enabled.,,,
+liminal_crisis_begins,Crisis RP Begins At,Int,300,,How many RP before the crisis begins.,0,3000,
+liminal_crisis_difficulty,Crisis Difficulty,Radio,Standard,"Easy, Standard, Hard","Crisis difficulty. Recommendations:
 - Easy: Vanilla
 - Standard: 50-100 balanced mods
 - Hard: 200+ unbalanced mods",,,
 ,,,,,,,,
 liminal_bossHeader,Boss Header,Header,Liminal Crisis Boss,,,,,
-liminal_boss_compute,Boss Computer Usage,Double,0.4,,"How computationally intensive the final boss is. Lower numbers will decrease the scale of the boss, but the overall difficulty will be the same or slightly higher. Values above 0.5 are not recommended.",0.1,1.0,
-liminal_boss_difficulty,Boss Difficulty,Radio,Standard,"Easy, Standard, Hard","Boss difficulty. Recommendations:
+liminal_boss_compute,Boss Computer Usage,Double,0.4,,"[Must restart game to take effect] How computationally intensive the final boss is. Lower numbers will decrease the scale of the boss, but the overall difficulty will be the same or slightly higher. Values above 0.5 are not recommended.",0.1,1.0,
+liminal_boss_difficulty,Boss Difficulty,Radio,Standard,"Easy, Standard, Hard","[Must restart game to take effect] Boss difficulty. Recommendations:
 - Easy: Vanilla
 - Standard: 50-100 balanced mods
 - Hard: 200+ unbalanced mods",,,

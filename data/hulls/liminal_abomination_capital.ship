@@ -1,0 +1,173 @@
+{
+    "bounds": [
+        271,
+        10,
+        249,
+        59,
+        221,
+        64,
+        218,
+        70,
+        23,
+        71,
+        16,
+        61,
+        -14,
+        73,
+        -18,
+        89,
+        -39,
+        85,
+        -42,
+        60,
+        -57,
+        53,
+        -81,
+        58,
+        -99,
+        37,
+        -103,
+        0,
+        -100,
+        -37,
+        -82,
+        -57,
+        -58,
+        -52,
+        -43,
+        -60,
+        -40,
+        -83,
+        -18,
+        -88,
+        -14,
+        -69,
+        18,
+        -60,
+        22,
+        -70,
+        219,
+        -71,
+        222,
+        -62,
+        249,
+        -58,
+        271,
+        -7,
+        265,
+        1
+    ],
+    "builtInMods": [],
+    "center": [
+        99,
+        108
+    ],
+    "collisionRadius": 330,
+    "coversColor": "",
+    "engineSlots": [
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 32,
+            "location": [
+                -99,
+                44
+            ],
+            "style": "MIDLINE",
+            "width": 8
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 48,
+            "location": [
+                -101,
+                33
+            ],
+            "style": "MIDLINE",
+            "width": 12
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 48,
+            "location": [
+                -104,
+                17
+            ],
+            "style": "MIDLINE",
+            "width": 12
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 96,
+            "location": [
+                -104,
+                0
+            ],
+            "style": "MIDLINE",
+            "width": 24
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 48,
+            "location": [
+                -104,
+                -17
+            ],
+            "style": "MIDLINE",
+            "width": 12
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 48,
+            "location": [
+                -101,
+                -32
+            ],
+            "style": "MIDLINE",
+            "width": 12
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 32,
+            "location": [
+                -99,
+                -44
+            ],
+            "style": "MIDLINE",
+            "width": 8
+        }
+    ],
+    "height": 400,
+    "hullId": "liminal_abomination_capital",
+    "hullName": "Abomination",
+    "hullSize": "CAPITAL_SHIP",
+    "shieldCenter": [
+        84,
+        0
+    ],
+    "shieldRadius": 230,
+    "spriteName": "graphics/liminal/ships/liminal_abomination_capital.png",
+    "style": "liminal_style",
+    "viewOffset": 0,
+    "weaponSlots": [
+        {
+            "angle": 100,
+            "arc": 360,
+            "id": "WS 001",
+            "locations": [
+                0,
+                0
+            ],
+            "mount": "HIDDEN",
+            "size": "LARGE",
+            "type": "ENERGY"
+        },
+    ],
+    "width": 200
+}

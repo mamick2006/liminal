@@ -1,11 +1,21 @@
 {
-    "displayName": "Abomling",
-    "fluxCapacitors": 0,
-    "fluxVents": 0,
-    "hullId": "atlas",
-    "hullMods": [],
+    "displayName": "Abomination",
+    "fluxCapacitors": 40,
+    "fluxVents": 40,
+    "hullId": "liminal_abomination_frigate",
+    "hullMods": [
+        "liminal_polymorphic"
+    ],
     "permaMods": [],
     "sMods": [],
     "variantId": "liminal_ship_28",
-    "weaponGroups": []
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "tachyonlance"
+            }
+        }
+    ]
 }

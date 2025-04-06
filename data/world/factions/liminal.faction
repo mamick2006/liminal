@@ -1,0 +1,298 @@
+{
+	id:"liminal",
+	"displayName":"Entity",
+	"displayNameWithArticle":"the Entity",
+	"displayNameLong":"Servants of the Entity",
+	"displayNameLongWithArticle":"the Servants of the Entity",
+	"entityNamePrefix":"",
+	"personNamePrefix":"",
+	"personNamePrefixAOrAn":"an",
+	"displayNameIsOrAre":"are",
+
+	"logo":"graphics/liminal/factions/liminal.png",
+	"crest":"graphics/liminal/factions/crest_liminal.png",
+	"shipNamePrefix":"E???R????R??????O??R???",
+
+	"color":[255,165,0,255],
+	"baseUIColor":[255,165,0,255],
+
+	"showInIntelTab":false,
+
+	"shipNameSources":{
+		"OMEGA":1,
+		"GENERAL":1,
+		"PIRATES":1,
+		"BRITISH_NAVY":1,
+		"MERCANTILE":1,
+		"SPACE":1,
+		"REVOLUTIONARY":1,
+		"DIKTAT":1,
+		"HEGEMONY":1,
+		"KNIGHTS":1,
+		"LUDDIC_CHURCH":1,
+		"ABRAHAMIC":1,
+		"LUDDIC_PATH":1,
+		"PERSIAN":1,
+		"GERMANIC":1,
+		"NORSE":1,
+		"BEASTS":1,
+		"ROMAN":1,
+		"CELTIC":1,
+		"EGYPTIAN":1,
+		"AZTEC":1,
+		"JAPANESE":1,
+		"GREEK":1,
+		"DERELICT_DRONE":1,
+		"OTHER":1,
+	},
+	"names":{
+		"ai":1,
+		"modern":1,
+		"old english":1,
+		"future":1,
+		"world":1,
+		"luddic":1,
+		"myth":1,
+		"fringe":1,
+		"pirate":1
+	},
+	"variantOverrides":{
+    "liminal_ship_1": 10,
+    "liminal_ship_2": 10,
+    "liminal_ship_3": 10,
+    "liminal_ship_4": 10,
+    "liminal_ship_5": 10,
+    "liminal_ship_6": 10,
+    "liminal_ship_7": 10,
+    "liminal_ship_8": 10,
+    "liminal_ship_9": 10,
+    "liminal_ship_10": 10,
+    "liminal_ship_11": 10,
+    "liminal_ship_12": 10,
+    "liminal_ship_13": 10,
+    "liminal_ship_14": 10,
+    "liminal_ship_15": 10,
+    "liminal_ship_16": 10,
+    "liminal_ship_17": 10,
+    "liminal_ship_18": 10,
+    "liminal_ship_19": 10,
+    "liminal_ship_20": 10,
+    "liminal_ship_21": 10,
+    "liminal_ship_22": 10,
+    "liminal_ship_23": 10,
+    "liminal_ship_24": 10,
+    "liminal_ship_25": 10,
+    "liminal_ship_26": 10,
+    "liminal_ship_27": 10,
+    "liminal_ship_28": 10,
+    "liminal_ship_29": 10,
+    "liminal_ship_30": 10,
+    "liminal_ship_31": 10,
+    "liminal_ship_32": 10,
+    "liminal_ship_33": 10,
+    "liminal_ship_34": 10,
+    "liminal_ship_35": 10,
+    "liminal_ship_36": 10,
+    "liminal_ship_37": 10,
+    "liminal_ship_38": 10,
+    "liminal_ship_39": 10,
+    "liminal_ship_40": 10,
+    "liminal_ship_41": 10,
+    "liminal_ship_42": 10,
+    "liminal_ship_43": 10,
+    "liminal_ship_44": 10,
+    "liminal_ship_45": 10,
+    "liminal_ship_46": 10,
+    "liminal_ship_47": 10,
+    "liminal_ship_48": 10,
+    "liminal_ship_49": 10,
+    "liminal_ship_50": 10,
+    "liminal_ship_51": 10,
+    "liminal_ship_52": 10,
+    "liminal_ship_53": 10,
+    "liminal_ship_54": 10,
+    "liminal_ship_55": 10,
+    "liminal_ship_56": 10,
+    "liminal_ship_57": 10,
+    "liminal_ship_58": 10,
+    "liminal_ship_59": 10,
+    "liminal_ship_60": 10,
+    "liminal_ship_61": 10,
+    "liminal_ship_62": 10,
+    "liminal_ship_63": 10,
+    "liminal_ship_64": 10,
+    "liminal_ship_65": 10,
+    "liminal_ship_66": 10,
+    "liminal_ship_67": 10,
+    "liminal_ship_68": 10,
+    "liminal_ship_69": 10,
+    "liminal_ship_70": 10,
+    "liminal_ship_71": 10,
+    "liminal_ship_72": 10,
+    "liminal_ship_73": 10,
+    "liminal_ship_74": 10,
+    "liminal_ship_75": 10,
+    "liminal_ship_76": 10,
+    "liminal_ship_77": 10,
+    "liminal_ship_78": 10,
+    "liminal_ship_79": 10,
+    "liminal_ship_80": 10,
+    "liminal_ship_81": 10,
+    "liminal_ship_82": 10,
+    "liminal_ship_83": 10,
+    "liminal_ship_84": 10,
+    "liminal_ship_85": 10,
+    "liminal_ship_86": 10,
+    "liminal_ship_87": 10,
+    "liminal_ship_88": 10,
+    "liminal_ship_89": 10,
+    "liminal_ship_90": 10,
+    "liminal_ship_91": 10,
+    "liminal_ship_92": 10,
+    "liminal_ship_93": 10,
+    "liminal_ship_94": 10,
+    "liminal_ship_95": 10,
+    "liminal_ship_96": 10,
+    "liminal_ship_97": 10,
+    "liminal_ship_98": 10,
+    "liminal_ship_99": 10,
+    "liminal_ship_100": 10,
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["liminal_faction"],
+		"hulls":[
+			"liminal_abomination_frigate",
+			"liminal_abomination_destroyer",
+			"liminal_abomination_cruiser",
+			"liminal_abomination_capital",
+		],
+	},
+	"knownShips":{
+		"tags":["liminal_faction"],
+		"hulls":[
+			"liminal_abomination_frigate",
+			"liminal_abomination_destroyer",
+			"liminal_abomination_cruiser",
+			"liminal_abomination_capital",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["liminal_faction"],
+		"hulls":[
+			"liminal_abomination_frigate",
+			"liminal_abomination_destroyer",
+			"liminal_abomination_cruiser",
+			"liminal_abomination_capital",
+		],
+	},
+	"knownFighters":{
+		"tags":["liminal_faction"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["liminal_faction"],
+		"weapons":[
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":[],
+		"hullMods":[
+		],
+	},
+	"factionDoctrine":{
+		"warships":7,
+		"carriers":0,
+		"phaseShips":0,
+
+		"officerQuality":5,
+		"shipQuality":1,
+		"numShips":1,
+
+		"shipSize":3,
+
+		"aggression":5, # doesn't matter since automated ships are super aggressive regardless
+
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":1,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.0,
+
+		"officerSkillsShuffleProbability":1f,
+		"officerSkills":[
+			"ballistic_mastery",
+			"ordnance_expert",
+		],
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"crew_training",
+			"officer_training",
+
+			#"tactical_drills", # keep it to two skills to make sure all high-level commanders get level 6 officers
+			#"coordinated_maneuvers",
+			#"support_doctrine",
+		],
+	},
+	#"shipRoles":{
+	#},
+	"illegalCommodities":[
+	],
+	"music":{
+		"encounter_hostile":"music_tritach_encounter_hostile",
+	},
+	"portraits":{
+		"standard_male":[
+			"graphics/liminal/portraits/entity.png",
+		],
+		"standard_female":[
+			"graphics/liminal/portraits/entity.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+		},
+		"posts":{
+		},
+	},
+	"custom":{
+		"engageWhenEvenStrength":true,
+		"allowsTransponderOffTrade":false, # to prevent cargoscan dialog from "patrols"
+		"postsNoBounties":true,
+		"fightToTheLast":true, # order a full assault instead of retreating, in most cases
+		"noAICoresFromAutomatedDefenses":true,
+		"officersOnAutomatedDefenses":true,
+		"no_contacts":true,
+		"ignoreTradeWithEnemiesForReputation":true,
+		"caresAboutAtrocities":false,
+		"exemptFromFoodShortages":true,
+		"simulatorData":{
+			"showInSimulator":false,
+		},
+	},
+	"fleetTypeNames":{
+		"patrolSmall":"Servants of the Entity",
+		"patrolMedium":"Servants of the Entity",
+		"patrolLarge":"Servants of the Entity",
+		"battlestation":"Servants of the Entity",
+	},
+},

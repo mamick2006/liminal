@@ -100,38 +100,6 @@ Liminal_ShowAndCreatePerson liminal_jarn","On your screen, you see Jarn in the l
 He pauses as he sees his sister enter the room.",liminal_reshow_start:Continue,
 liminal_research_dialog,LiminalityResearchTeamDialog,,ShowImageVisual liminal_liminality,"""Ah, $PlayerSirOrMadam! Great to see you again. Here to discuss the project?"" Elna asks. ""We're making steady progress, though there are opportunities for additional funding.""","liminal_funding_options:Discuss funding opportunities
 liminal_leave:Leave",
-liminal_research_dialog_second_time,LiminalityResearchTeamDialog,"$global.liminalSeenStarting
-!$global.liminalSeenIncreased
-$global.liminal_increases > 0","$global.liminalSeenIncreased = true
-SetTextHighlightColors ""255,165,0,255""
-SetTextHighlights ""Liminality""
-Liminal_AddRP 5
-Liminal_ShowAndCreatePerson liminal_elna","""$PlayerSirOrMadam, we've hit a... complication,"" Elna says. ""The resource requirements needed to make further progress have increased. We need to raise the minimum research investment to maintain stability.""
-
-""But we've also discovered something really cool!"" Jarn chimes in. ""The Liminality isn't really from our universe, but we already knew that. What we didn't know, is that it's actually a Tesseract! It's a projection of a four-dimensional object into our measly three dimensions. Well, I guess you could technically say everything is a projection of a four-dimensional object, what with time and all, but this is a different kind of projection!""",liminal_reshow_start:Continue,
-liminal_research_dialog_third_time,LiminalityResearchTeamDialog,"$global.liminalSeenStarting
-$global.liminalSeenIncreased
-!$global.liminalSeenIncreasedThree
-$global.liminal_increases >= 3","$global.liminalSeenIncreasedThree = true
-SetTextHighlightColors ""255,165,0,255"" ""155,255,0,255""
-SetTextHighlights ""Liminality"" ""Instructions""
-Liminal_AddRP 5
-Liminal_ShowAndCreatePerson liminal_elna","""I apologize, but we need to increase funding requirements again,"" Elna says gravely. ""The Liminality is... resistant to our attempts to understand it. Like it's actively changing to prevent us from learning too much.""
-
-Jarn nods, his usual enthusiasm tempered. ""We've found fragments of what might be other Instructions embedded in its structure. Far more complex than anything we've managed to create. And they seem to be trying to do something, though we can't tell what. We think there might be some sort of sentience behind it, that allows us to copy the rules from somewhere else and use them in our own. Whatever it is, it's definitely not from this sector, or even our universe.""
-
-""But the march of science must proceed.""",liminal_reshow_start:Continue,
-liminal_research_dialog_fourth_time,LiminalityResearchTeamDialog,"$global.liminalSeenStarting
-$global.liminalSeenIncreased
-$global.liminalSeenIncreasedThree
-!$global.liminalSeenIncreasedTen
-$global.liminal_increases >= 10","$global.liminalSeenIncreasedTen = true
-SetTextHighlightColors ""255,165,0,255"" ""155,255,0,255""
-SetTextHighlights ""Liminality"" ""Instructions""
-Liminal_AddRP 5
-Liminal_ShowAndCreatePerson liminal_elna","The researchers look deeply troubled as they explain the latest cost increase. ""We've discovered something... disturbing,"" Elna says quietly. ""The Liminality is getting increasingly aggressive. Though we still have control over our local instance, we feel like there might be more of them coming. Our best guess is that our version was the attempt of some being from outside our reality to come inside.""
-
-""We can keep researching if you think it's a good idea, but something might happen and we understand if you want us to stop. The symbols, the Instructions - they're a language for rewriting the laws of physics,"" Jarn adds, his usual enthusiasm completely gone. ""But we're only seeing a tiny piece of it. Whatever is trying to get inside, it created the entire language.""",liminal_reshow_start:Continue,
 liminal_back,liminal_rt_options,,,,99:liminal_back_execute:Back,
 liminal_back_execute,DialogOptionSelected,$option == liminal_back_execute,FireBest LiminalityResearchTeamDialog,,,
 liminal_funding_options,DialogOptionSelected,$option == liminal_funding_options,"Liminal_ShowAndCreatePerson liminal_jarn
@@ -179,3 +147,139 @@ FireAll liminal_rt_options","""These will help automate some of our more tedious
 ,,,,,,
 liminal_reshow_start,DialogOptionSelected,$option == liminal_reshow_start,FireBest LiminalityResearchTeamDialog,,,
 liminal_leave,DialogOptionSelected,$option == liminal_leave,DismissDialog,,,
+,,,,,,
+,,,,,,
+liminal_faction_see,OpenInteractionDialog,"$tag:liminal_invasion
+$hasMarket score:10000","ShowImageVisual liminal_planet
+SetTextHighlightColors bad bad hl
+SetTextHighlights ""sinister"" ""a wound in reality"" ""reality anchors are ready to be deployed""","What appears to be a colony from orbit reveals itself as something far more sinister upon closer inspection - buildings that are larger on the inside, structures that connect to nowhere and everywhere simultaneously, and inhabitants that move in ways that suggest they're no longer fully human.
+
+Scans detect massive energy signatures beneath the surface. This is not merely a staging ground - it is a wound in reality, a beachhead from which the Entity seeks to enter our universe.
+
+The reality anchors are ready to be deployed to close the wound. All you need to do is get close enough, but based on the defenses you've seen so far this will be no easy task.","liminal_faction_see_fight:Move the anchors into position
+liminal_leave:Leave",
+liminal_faction_see_fight,DialogOptionSelected,$option == liminal_faction_see_fight,"SetTextHighlightColors ""255,165,0,255""
+SetTextHighlights ""they're drawing power directly from the wound""
+Liminal_AttackPlanetInteraction","A massive swarm of twisted frigates comes up to meet you.
+
+As your fleet approaches, you notice most of them appear to be civilian shuttles - the dregs that weren't deemed worthy of joining the invasion fleets. But they swarm like insects around the wound in reality.
+
+As they get closer, your sensors officer's voice catches. ""$PlayerSirOrMadam... those aren't normal shuttles. The weapon mounts... the energy readings... they're drawing power directly from the wound.""
+
+These may be the Entity's rejects, but this close to the source of its power, even its castoffs are deadly. Your fleet readies for battle.",,
+liminal_leave_option,LiminalLeaveOption,,,,liminal_leave:Leave,
+liminal_faction_planet_non_staging,MarketPostOpen,"$faction.id == liminal
+$hasMarket score:10000","$tradeMode = NONE 0
+ShowImageVisual liminal_planet
+SetTextHighlightColors bad bad bad
+SetTextHighlights ""wrong"" ""no longer fully human"" ""There is little to do here""
+FireBest MarketPostDock","Though everything appears at the surface level to be normal, when you land you realise everything is wrong. Buildings are larger on the inside, structures connect to nowhere and everywhere simultaneously, and inhabitants move in ways that suggest they're no longer fully human. There is little to do here.",,
+,,,,,,
+,,,,,,
+liminal_begin_fleet_encounter,BeginFleetEncounter,!$player.liminal_begin_fleet_encounter score:10000,"$player.liminal_begin_fleet_encounter = true 0
+Liminal_FleetEncounter
+FireBest BeginFleetEncounter ",,,
+,,,,,,
+liminal_galatia_fightboss,PopulateOptions,"$id == station_galatia_academy
+Liminal_CanFightBoss",,"Elna marches up to you. ""Are you ready?"" she asks.",99:liminal_galatia_fightboss_begin:Go with Elna,
+liminal_galatia_fightboss_begin,DialogOptionSelected,$option == liminal_galatia_fightboss_begin,"ShowImageVisual liminal_liminality_bad
+SetTextHighlightColors ""255,165,0,255"" ""255,165,0,255"" ""255,165,0,255"" ""255,165,0,255"" bad ""255,165,0,255"" ""255,165,0,255"" ""255,165,0,255""
+SetTextHighlights ""Liminality"" ""the Avatar of the Entity"" ""the Entity's"" ""Liminality"" ""all planets under the Entity's control will be destroyed"" ""the Entity"" ""Liminality"" ""Avatar"" ""The Entity's""
+Liminal_AttackBossInteraction","Elna leads you to the Liminality. The tesseract pulses with an ominous orange glow, and the air around it seems to ripple and distort. ""The bridge is ready,"" she says quietly. ""It will create a temporary connection to the space between dimensions. Once you're through, you'll have to find and destroy the Avatar of the Entity. It's the final tether holding the Entity's connection to our universe.""
+
+She hesitates, looking at the distorted space around the Liminality. ""Remember - when we sever this connection, all planets under the Entity's control will be destroyed. There's no way around that. The corruption runs too deep.""
+
+""But if we don't do this now,"" she continues, her voice hardening, ""the Entity will only grow stronger. It will find a way to maintain its connection, to expand its influence. This is our only chance.""
+
+She activates the Liminality, and a swirling portal of orange light opens before you. Through it, you can see a space that defies description - a place where reality itself seems to bend and twist. In the distance, a massive form shifts and writhes, composed of countless ships fused together into something that should not exist.
+
+""That's the Avatar,"" Elna says. ""The Entity's manifestation in our universe. Destroy it, and we can finally cut off the connection.""
+
+Your fleet readies itself for the final battle.",,
+liminal_warning_one,liminal_warning_one,,"ShowImageVisual liminal_liminality
+SetTextHighlightColors ""255,165,0,255"" ""155,255,0,255"" ""155,255,0,255"" ""255,165,0,255"" ""255,165,0,255"" ""155,255,0,255""
+SetTextHighlights ""Liminality"" ""Instructions"" ""Instructions"" ""Liminality"" ""Liminality"" ""Instructions""
+$global.liminal_warning_one = true","""$PlayerSirOrMadam! We've made some incredible breakthroughs!"" Elna's eyes are bright with excitement, though there's a hint of something else in her expression. ""The Liminality is responding to our Instructions in ways we never expected. We're seeing patterns in its behavior that suggest it's... learning, adapting to our research.""
+
+""It's fascinating!"" Jarn adds, his usual enthusiasm undimmed. ""The Instructions we're using are becoming more efficient, more powerful. It's like it's helping us understand it better. And we've discovered something really cool - the Liminality isn't just from another universe, it's actually a Tesseract! A projection of a four-dimensional object into our measly three dimensions. Well, I guess you could technically say everything is a projection of a four-dimensional object, what with time and all, but this is a different kind of projection!""
+
+""Though there are some anomalies,"" Elna continues, her voice slightly more measured. ""Sometimes the Liminality seems to react to Instructions before we even finish writing them. And the energy readings are becoming more erratic. But that's just part of the learning process, right?""
+
+""Exactly!"" Jarn nods vigorously. ""We're pushing the boundaries of what's possible. A few energy spikes are nothing to worry about.""","liminal_warning_one_continue:Continue",
+liminal_warning_one_continue,DialogOptionSelected,$option == liminal_warning_one_continue,"SetTextHighlightColors ""155,255,0,255"" ""155,255,0,255""
+SetTextHighlights ""Instructions"" ""Instructions""
+Liminal_AddRP 15
+Liminal_ShowAndCreatePerson liminal_elna","""I suppose,"" Elna says, though she doesn't sound entirely convinced. ""In any case, we should be able to start testing some new Instructions soon.""
+
+""Though we've hit a... complication,"" She continues. ""The resource requirements needed to make further progress have increased. We need to raise the minimum research investment to maintain stability.""
+
+""But we're making incredible progress!"" Jarn chimes in. ""We've found fragments of what might be other Instructions embedded in its structure. Far more complex than anything we've managed to create.""","liminal_leave:Leave",
+liminal_warning_two,liminal_warning_two,,"ShowImageVisual liminal_liminality
+SetTextHighlightColors ""255,165,0,255"" ""155,255,0,255"" ""155,255,0,255""
+SetTextHighlights ""Liminality's"" ""Instructions"" ""Instructions""","""$PlayerSirOrMadam, we need to talk,"" Elna says, her voice unusually serious. ""The Liminality's behavior has become increasingly... concerning. The energy readings are off the charts, and it's started generating Instructions of its own. I think we should stop the research.""
+
+""Stop? Now? When we're so close to understanding it?"" Jarn's voice is incredulous. ""It's just getting more efficient at helping us! Look at what we've accomplished - we've pushed the boundaries of what's possible in ways no one ever dreamed of!""
+
+""You're not seeing what I'm seeing,"" Elna replies, her tone sharp. ""The Instructions it's generating... they're not like ours. They're more complex, more powerful. And they seem to be trying to do something.""","liminal_warning_two_continue:Continue",
+liminal_warning_two_continue,DialogOptionSelected,$option == liminal_warning_two_continue,"SetTextHighlightColors ""255,165,0,255"" ""255,165,0,255""
+SetTextHighlights ""Liminality"" ""Liminality""
+Liminal_ShowAndCreatePerson liminal_jarn
+$global.liminal_warning_two = true","""But if you want to keep pushing forward,"" Elna continues, her voice softening slightly, ""we need to be prepared. I don't know what's going to happen, but I have a bad feeling about this. The Liminality... it feels like it's waiting for something. It is connecting to somewhere else, and I think that somewhere else isn't good.""
+
+""You're being paranoid,"" Jarn says. ""The Liminality is just a tool, a bridge between realities. We control it, not the other way around.""
+
+""I hope you're right,"" Elna says quietly. ""But if something does happen... well, I just want to make sure we're ready.""","liminal_warning_two_continue2:Continue",
+liminal_warning_two_continue2,DialogOptionSelected,$option == liminal_warning_two_continue2,"SetTextHighlightColors ""255,165,0,255"" ""155,255,0,255""
+SetTextHighlights ""Liminality"" ""Instructions""
+Liminal_AddRP 15","""I won't force us to stop. Not when we're on the cusp, and this is all of our research,"" Elna says. ""I just want you to consider the possibility of stopping. The symbols, the Instructions - they're a language for rewriting the laws of physics. But we're only seeing a tiny piece of it. Whatever is trying to get inside, it created the entire language.""","liminal_leave:Accept the warning and leave",
+liminal_crisis_begin,liminal_crisis_begin,,"ShowImageVisual liminal_liminality_bad
+SetTextHighlightColors ""255,165,0,255"" ""255,165,0,255""
+SetTextHighlights ""Liminality"" ""the Entity""
+$global.liminal_crisis_begin = true","""$PlayerSirOrMadam..."" Elna's voice is barely a whisper. Her eyes are red and swollen, and she looks like she hasn't slept in days. ""The Liminality... it went unstable. Jarn... he..."" She takes a deep, shuddering breath. ""He was too close when it happened. The energy readings were off the charts, and then..."" She trails off.
+
+""We managed to get control back, but..."" She looks at the floating tesseract, which pulses with an ominous orange glow. ""It's not just a bridge anymore. Something is trying to come through. Something called the Entity. Their invasion fleets are breaking through already, trying to take over planets.""","liminal_crisis_begin_continue:Continue",
+liminal_crisis_begin_continue,DialogOptionSelected,$option == liminal_crisis_begin_continue,"SetTextHighlightColors ""255,165,0,255"" ""155,255,0,255""
+SetTextHighlights ""Liminality"" ""reality anchors""
+Liminal_ShowAndCreatePerson liminal_elna","""It's already started. We've detected four staging points - worlds that the Entity has... corrupted. The planets themselves are being transformed, twisted into something else.""
+
+""But we have a chance to stop this. In trying to control and stabilize the Liminality, we've developed reality anchors - devices that enforce the rules of reality. If we can get them close enough to the centers of the staging grounds, those rifts in reality will collapse and the Entity will lose its footholds.""","liminal_crisis_begin_continue2:Continue",
+liminal_crisis_begin_continue2,DialogOptionSelected,$option == liminal_crisis_begin_continue2,"SetTextHighlightColors ""255,165,0,255"" ""255,165,0,255"" ""255,165,0,255""
+SetTextHighlights ""The Entity's"" ""the Entity's"" ""Servents of the Entity""
+Liminal_ShowAndCreatePerson liminal_elna","""The Entity's ships are drawing power directly from the other dimensions. They're not just ships anymore - they're extensions of the Entity's will. They're Servents of the Entity. If we can destroy enough of them, we can weaken its connection to our universe. Though this is only a temporary solution, we need to destroy the staging points."" She ignores all attempts to interrupt her, afraid to confront her brother's death. Afraid that you asking about him would make it real.
+
+""We need to act quickly. The longer we wait, the more planets it will consume. The invasion fleets... they don't invade in the traditional sense. They corrupt, transform, make everything they touch part of the Entity's domain. We can't let that happen.""
+
+""Please..."" Her voice breaks. ""Jarn believed in this research. He believed in the potential for good. We can't let his death be in vain. We have to stop this.""","liminal_crisis_begin_continue3:Continue",
+liminal_crisis_begin_continue3,DialogOptionSelected,$option == liminal_crisis_begin_continue3,"SetTextHighlightColors ""255,165,0,255"" ""255,165,0,255""
+SetTextHighlights ""the Entity's"" ""Liminality""
+Liminal_ShowAndCreatePerson liminal_elna
+Liminal_AddRP 25","""The reality anchors are ready. We just need someone to deploy them. Someone who can fight through the Entity's defenses. Someone who can handle the impossible.""
+
+""That someone is you.""
+
+""The staging points are marked on your map. Each one will be heavily defended. The Entity knows what we're trying to do, and it will fight back. But if we can seal these wounds, if we can break its connection to our universe..."" She looks at the Liminality, her expression hardening. ""Then maybe we can make it pay for what it did to Jarn.""","liminal_leave:Accept the mission",
+liminal_crisis_progress,liminal_crisis_progress,,"ShowImageVisual liminal_liminality_bad
+SetTextHighlightColors ""255,165,0,255"" ""155,255,0,255"" ""255,165,0,255"" ""255,165,0,255""
+SetTextHighlights ""reality anchors"" ""the Entity's"" ""The Entity"" ""The Entity's""
+$global.liminal_crisis_progress = true
+Liminal_AddRP 25","""$PlayerSirOrMadam, we're making progress!"" Elna's voice is tinged with cautious optimism. ""The reality anchors are working as intended. Each staging point we destroy weakens the Entity's hold on our universe.""
+
+""But..."" She hesitates, her expression darkening. ""The Entity is fighting back. It's throwing everything it has at us. The invasion fleets may be less frequent, but they're more aggressive. Its ships are stronger. It knows what we're trying to do.""
+
+""Things will get worse before they get better,"" she continues. ""But we're winning. The Entity's grip is slipping. We just need to hold on a bit longer.""","liminal_leave:Continue",
+liminal_crisis_end,liminal_crisis_end,,"ShowImageVisual liminal_liminality_bad
+SetTextHighlightColors ""255,165,0,255"" ""255,165,0,255"" ""255,165,0,255"" ""255,165,0,255"" ""255,165,0,255"" ""255,165,0,255""
+SetTextHighlights ""The Entity"" ""The Entity's"" ""Liminality"" ""Avatar of the Entity"" ""Liminality"" ""the Entity""
+$global.liminal_crisis_end = true
+Liminal_ShowAndCreatePerson liminal_elna","""$PlayerSirOrMadam!"" Elna's voice is urgent as you enter the lab. ""We've done it! The staging points are gone. The Entity's footholds in our universe have been destroyed.""
+
+""But there's one last thing we need to do,"" she continues, her expression serious. ""The Entity's connection to our universe isn't completely severed. It's still holding on through the Liminality itself. We need to cut that final thread.""
+
+""We've traced the connection,"" she explains, ""and we know where it leads. There's a space between dimensions where an Avatar of the Entity is tethering the connection. We can create a temporary bridge to that space using the Liminality, but...""
+
+She hesitates, looking at the glowing tesseract. ""If we cut off the connection, all planets controlled by the Entity will be destroyed. The corruption will be purged, but it won't be pretty. Are you ready?""","liminal_crisis_end_continue:Nod",
+liminal_crisis_end_continue,DialogOptionSelected,$option == liminal_crisis_end_continue,"Liminal_AddRP 25
+SetTextHighlightColors hl
+SetTextHighlights ""Galatia Academy""
+Liminal_ShowAndCreatePerson liminal_elna","""Good,"" Elna says, nodding. ""When you're ready, return to Galatia Academy.""","liminal_leave:Continue",
+,,,,,,

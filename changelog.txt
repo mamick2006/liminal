@@ -1,3 +1,18 @@
+v2.0.0
+Save compatible. Can be added to existing saves.
+
+Features:
+- Adds the Liminal super end game crisis!!!!! This crisis is *very hard*, and by far the hardest modded content I know of, especially if you turn up the difficulty settings.
+
+
+Other:
+- Improved sound effects of intel messages, and improved the messages that showup in the campaign UI (adding icons, etc).
+- Corrected some possible errors from bad string comparisons.
+- Nerfed the instruction that reduces OP cost of weapons and the one that adds fighter bays a bit, for balance for the crisis.
+- Changed how researcher dialog shows up.
+- Fixed fighting the boss multiple times.
+
+
 v1.0.7
 Save compatible. Can be added to existing saves
 

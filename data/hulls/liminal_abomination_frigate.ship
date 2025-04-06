@@ -1,0 +1,95 @@
+{
+    "bounds": [
+        44,
+        14,
+        38,
+        -14,
+        5,
+        -10,
+        15,
+        -19,
+        13,
+        -28,
+        -21,
+        -27,
+        -23,
+        -17,
+        -7,
+        -15,
+        -19,
+        -11,
+        -20,
+        10,
+        -8,
+        16,
+        -23,
+        17,
+        -24,
+        27,
+        15,
+        27,
+        16,
+        19,
+        12,
+        13
+    ],
+    "builtInMods": [
+    ],
+    "center": [
+        31,
+        27
+    ],
+    "collisionRadius": 73,
+    "coversColor": "",
+    "engineSlots": [
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 80,
+            "location": [
+                -25,
+                22
+            ],
+            "style": "LOW_TECH",
+            "width": 16
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 80,
+            "location": [
+                -25,
+                -22
+            ],
+            "style": "LOW_TECH",
+            "width": 16
+        }
+    ],
+    "height": 72,
+    "hullId": "liminal_abomination_frigate",
+    "hullName": "Abomling",
+    "hullSize": "FRIGATE",
+    "shieldCenter": [
+        8,
+        0
+    ],
+    "shieldRadius": 64,
+    "spriteName": "graphics/liminal/ships/liminal_abomination_frigate.png",
+    "style": "liminal_style",
+    "viewOffset": 0,
+    "weaponSlots": [
+        {
+            "angle": 100,
+            "arc": 360,
+            "id": "WS 001",
+            "locations": [
+                0,
+                0
+            ],
+            "mount": "HIDDEN",
+            "size": "LARGE",
+            "type": "ENERGY"
+        },
+    ],
+    "width": 62
+}

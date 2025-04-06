@@ -1,0 +1,24 @@
+id,type,text1,text2,text3,text4,notes
+liminal_boss_core,SHIP,"A massive vessel that defies conventional understanding, fluctuating between different configurations as if unable to decide on a single form in our universe. This appears to be the main conduit the invasion uses to enter our reality: a distorted version of the Liminality. You hear screams of false reflections inside.
+
+Sensors fail to get a consistent reading, and crew members report discomfort and disorientation when observing it directly. Those who stare too long at its impossible geometries report hearing whispers from another reality - instructions in an alien language that somehow feels familiar yet utterly wrong.",,,,
+liminal_abomination_frigate,SHIP,"A twisted mockery of conventional design, this vessel is an attempt to create something that can exist in our universe. Its hull constantly shifts and warps as if struggling to maintain coherence. Even through space, you can hear the screams of its twisted crew.
+
+The ship's systems operate according to principles that defy the laws of physics, drawing power from outside our universe, ignoring reality far beyond what we can replicate.",,,,
+liminal_abomination_destroyer,SHIP,"A twisted mockery of conventional design, this vessel is an attempt to create something that can exist in our universe. Its hull constantly shifts and warps as if struggling to maintain coherence. Even through space, you can hear the screams of its twisted crew.
+
+The ship's systems operate according to principles that defy the laws of physics, drawing power from outside our universe, ignoring reality far beyond what we can replicate.",,,,
+liminal_abomination_cruiser,SHIP,"A twisted mockery of conventional design, this vessel is an attempt to create something that can exist in our universe. Its hull constantly shifts and warps as if struggling to maintain coherence. Even through space, you can hear the screams of its twisted crew.
+
+The ship's systems operate according to principles that defy the laws of physics, drawing power from outside our universe, ignoring reality far beyond what we can replicate.",,,,
+liminal_abomination_capital,SHIP,"A twisted mockery of conventional design, this vessel is an attempt to create something that can exist in our universe. Its hull constantly shifts and warps as if struggling to maintain coherence. Even through space, you can hear the screams of its twisted crew.
+
+The ship's systems operate according to principles that defy the laws of physics, drawing power from outside our universe, ignoring reality far beyond what we can replicate.",,,,
+planet_liminal_invasion_planet,CUSTOM,"A world corrupted by the Entity's influence, where reality itself seems to bend and fracture. The surface shifts between states - sometimes appearing as barren rock, sometimes as churning liquid, sometimes as something that defies categorization entirely.
+
+Massive structures of impossible geometry rise from the surface, their purpose unknowable yet clearly malevolent. Always, however, the planet is more full of people and industry than any you've ever seen.",,"What appears to be a colony from orbit reveals itself as something far more sinister upon closer inspection - buildings that are larger on the inside, structures that connect to nowhere and everywhere simultaneously, and inhabitants that move in ways that suggest they're no longer fully human.
+
+Scans detect massive energy signatures beneath the surface. This is not merely a staging ground - it is a wound in reality, a beachhead from which the Entity seeks to enter our universe.",,
+liminal_barren_deep_space,CUSTOM,"A dead world, scoured clean of all traces of the Entity's influence. Where once stood impossible geometries and masses of people, now only empty foundations and glassy craters remain. The surface has been blasted into a barren wasteland by the violent collapse of reality.
+
+No signs remain of what this world once was before the invasion.",,,,,

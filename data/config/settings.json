@@ -7,6 +7,7 @@
       255
     ]
   },
+  "plugins": {},
   "ruleCommandPackages": [
     "liminal.rules"
   ],
@@ -42,7 +43,9 @@
       "liminal_fighter_bay": "graphics/liminal/illustrations/fighter_bay.png",
       "liminal_time_flow": "graphics/liminal/illustrations/time_flow.png",
       "liminal_regen": "graphics/liminal/illustrations/regen.png",
-      "liminal_damage_cap": "graphics/liminal/illustrations/damage_cap.png"
+      "liminal_damage_cap": "graphics/liminal/illustrations/damage_cap.png",
+      "liminal_liminality_bad": "graphics/liminal/illustrations/liminality_bad.png",
+      "liminal_planet": "graphics/liminal/illustrations/liminality_planet.png"
     },
     "characters": {
       "liminal_elna": "graphics/liminal/portraits/elna.png",
@@ -55,6 +58,13 @@
       "liminal_intel_research2": "graphics/liminal/icons/intel_research2.png",
       "liminal_intel_research3": "graphics/liminal/icons/intel_research3.png",
       "liminal_intel_research4": "graphics/liminal/icons/intel_research4.png",
+      "liminal_intel_crisis": "graphics/liminal/icons/intel_crisis.png",
+      "liminal_intel_crisis1": "graphics/liminal/icons/intel_crisis1.png",
+      "liminal_intel_crisis2": "graphics/liminal/icons/intel_crisis2.png",
+      "liminal_intel_crisis3": "graphics/liminal/icons/intel_crisis3.png",
+      "liminal_intel_crisis4": "graphics/liminal/icons/intel_crisis4.png",
+      "liminal_intel_crisis5": "graphics/liminal/icons/intel_crisis5.png",
+      "liminal_intel_crisis6": "graphics/liminal/icons/intel_crisis6.png",
       "liminal_line": "graphics/liminal/icons/line.png",
       "liminal_question": "graphics/liminal/icons/question.png"
     },

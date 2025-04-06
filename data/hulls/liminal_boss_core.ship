@@ -1,5 +1,5 @@
 {
-    "hullName": "liminal_boss_core",
+    "hullName": "Abomination",
     "hullId": "liminal_boss_core",
     "hullSize": "CAPITAL_SHIP",
     "style": "liminal_style",
@@ -20,8 +20,7 @@
         8,
         -1.5
     ],
-    "builtInMods": [
-    ],
+    "builtInMods": [],
     "shieldRadius": 128.5,
     "viewOffset": 0,
     "builtInWings": [],
@@ -33,10 +32,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 23.0,
+            "angle": 76.6,
             "locations": [
-                411,
-                -306
+                -604,
+                -77
             ]
         },
         {
@@ -45,10 +44,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 330.6,
+            "angle": 141.9,
             "locations": [
-                -555,
-                785
+                490,
+                263
             ]
         },
         {
@@ -57,10 +56,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 60.3,
+            "angle": 142.7,
             "locations": [
-                346,
-                -672
+                412,
+                -86
             ]
         },
         {
@@ -69,10 +68,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 126.8,
+            "angle": 258.7,
             "locations": [
-                666,
-                -583
+                341,
+                -438
             ]
         },
         {
@@ -81,10 +80,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 170.3,
+            "angle": 92.4,
             "locations": [
-                -823,
-                -596
+                -434,
+                -861
             ]
         },
         {
@@ -93,10 +92,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 80.1,
+            "angle": 288.0,
             "locations": [
-                -77,
-                -689
+                623,
+                517
             ]
         },
         {
@@ -105,10 +104,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 3.8,
+            "angle": 200.0,
             "locations": [
-                33,
-                -802
+                26,
+                -880
             ]
         },
         {
@@ -117,10 +116,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 251.4,
+            "angle": 99.3,
             "locations": [
-                -213,
-                -972
+                -832,
+                -558
             ]
         },
         {
@@ -129,10 +128,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 144.8,
+            "angle": 134.3,
             "locations": [
-                322,
-                -388
+                514,
+                681
             ]
         },
         {
@@ -141,10 +140,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 25.9,
+            "angle": 142.9,
             "locations": [
-                753,
-                -179
+                -254,
+                761
             ]
         },
         {
@@ -153,10 +152,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 292.6,
+            "angle": 279.1,
             "locations": [
-                -282,
-                -585
+                102,
+                550
             ]
         },
         {
@@ -165,10 +164,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 176.3,
+            "angle": 317.8,
             "locations": [
-                214,
-                -81
+                393,
+                -294
             ]
         },
         {
@@ -177,10 +176,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 125.6,
+            "angle": 336.6,
             "locations": [
-                -414,
-                814
+                366,
+                230
             ]
         },
         {
@@ -189,10 +188,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 171.7,
+            "angle": 17.6,
             "locations": [
-                -867,
-                231
+                807,
+                -210
             ]
         },
         {
@@ -201,10 +200,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 293.4,
+            "angle": 47.4,
             "locations": [
-                -227,
-                873
+                -491,
+                -647
             ]
         },
         {
@@ -213,10 +212,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 5.4,
+            "angle": 50.0,
             "locations": [
-                154,
-                -531
+                -968,
+                333
             ]
         },
         {
@@ -225,10 +224,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 136.0,
+            "angle": 175.1,
             "locations": [
-                -281,
-                523
+                -253,
+                -783
             ]
         },
         {
@@ -237,10 +236,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 336.7,
+            "angle": 115.6,
             "locations": [
-                249,
-                501
+                122,
+                691
             ]
         },
         {
@@ -249,10 +248,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 136.7,
+            "angle": 348.2,
             "locations": [
-                -568,
-                103
+                719,
+                565
             ]
         },
         {
@@ -261,10 +260,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 1.5,
+            "angle": 80.6,
             "locations": [
-                496,
-                322
+                -112,
+                -929
             ]
         },
         {
@@ -273,10 +272,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 38.4,
+            "angle": 254.2,
             "locations": [
-                62,
-                -975
+                -196,
+                239
             ]
         },
         {
@@ -285,10 +284,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 344.4,
+            "angle": 249.7,
             "locations": [
-                772,
-                -625
+                227,
+                422
             ]
         },
         {
@@ -297,10 +296,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 331.2,
+            "angle": 305.6,
             "locations": [
-                -604,
-                -693
+                264,
+                -812
             ]
         },
         {
@@ -309,10 +308,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 227.8,
+            "angle": 146.1,
             "locations": [
-                -65,
-                943
+                -959,
+                45
             ]
         },
         {
@@ -321,10 +320,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 162.5,
+            "angle": 100.7,
             "locations": [
-                -670,
-                550
+                -371,
+                -545
             ]
         },
         {
@@ -335,8 +334,8 @@
             "arc": 0,
             "angle": 45.5,
             "locations": [
-                -664,
-                -550
+                321,
+                465
             ]
         },
         {
@@ -345,10 +344,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 317.3,
+            "angle": 351.9,
             "locations": [
-                387,
-                -494
+                -708,
+                281
             ]
         },
         {
@@ -357,10 +356,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 8.8,
+            "angle": 348.0,
             "locations": [
-                131,
-                -161
+                -665,
+                498
             ]
         },
         {
@@ -369,10 +368,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 128.6,
+            "angle": 360.0,
             "locations": [
-                677,
-                727
+                -1000,
+                -103
             ]
         },
         {
@@ -381,10 +380,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 23.0,
+            "angle": 290.6,
             "locations": [
-                197,
-                -416
+                175,
+                -529
             ]
         },
         {
@@ -393,10 +392,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 198.7,
+            "angle": 240.7,
             "locations": [
-                -930,
-                133
+                819,
+                122
             ]
         },
         {
@@ -405,10 +404,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 261.0,
+            "angle": 313.9,
             "locations": [
-                -853,
-                -277
+                821,
+                538
             ]
         },
         {
@@ -417,10 +416,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 47.4,
+            "angle": 178.7,
             "locations": [
-                1004,
-                20
+                513,
+                868
             ]
         },
         {
@@ -429,10 +428,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 31.4,
+            "angle": 221.3,
             "locations": [
-                -38,
-                -67
+                -63,
+                485
             ]
         },
         {
@@ -441,10 +440,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 164.7,
+            "angle": 280.0,
             "locations": [
-                -487,
-                -726
+                -348,
+                815
             ]
         },
         {
@@ -453,10 +452,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 153.8,
+            "angle": 123.2,
             "locations": [
-                -709,
-                360
+                -536,
+                -350
             ]
         },
         {
@@ -465,10 +464,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 319.6,
+            "angle": 30.2,
             "locations": [
-                351,
-                487
+                -89,
+                -801
             ]
         },
         {
@@ -477,10 +476,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 21.3,
+            "angle": 137.2,
             "locations": [
-                638,
-                -748
+                839,
+                -362
             ]
         },
         {
@@ -489,10 +488,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 0.6,
+            "angle": 220.3,
             "locations": [
-                -245,
-                -117
+                -159,
+                873
             ]
         },
         {
@@ -501,10 +500,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 19.2,
+            "angle": 136.0,
             "locations": [
-                -387,
-                299
+                44,
+                -676
             ]
         },
         {
@@ -513,10 +512,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 310.1,
+            "angle": 142.7,
             "locations": [
-                493,
-                737
+                85,
+                -241
             ]
         },
         {
@@ -525,10 +524,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 46.6,
+            "angle": 110.4,
             "locations": [
-                119,
-                293
+                -441,
+                760
             ]
         },
         {
@@ -537,10 +536,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 236.7,
+            "angle": 85.8,
             "locations": [
-                191,
-                152
+                -514,
+                -174
             ]
         },
         {
@@ -549,10 +548,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 80.7,
+            "angle": 307.0,
             "locations": [
-                278,
-                -170
+                130,
+                376
             ]
         },
         {
@@ -561,10 +560,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 143.3,
+            "angle": 19.7,
             "locations": [
-                838,
-                208
+                418,
+                745
             ]
         },
         {
@@ -573,10 +572,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 41.9,
+            "angle": 95.0,
             "locations": [
-                -815,
-                29
+                20,
+                986
             ]
         },
         {
@@ -585,10 +584,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 334.2,
+            "angle": 70.6,
             "locations": [
-                553,
-                -689
+                322,
+                812
             ]
         },
         {
@@ -597,10 +596,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 327.5,
+            "angle": 192.1,
             "locations": [
-                -275,
-                -798
+                557,
+                -478
             ]
         },
         {
@@ -609,10 +608,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 316.5,
+            "angle": 321.2,
             "locations": [
-                667,
-                589
+                97,
+                -120
             ]
         },
         {
@@ -621,10 +620,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 278.6,
+            "angle": 287.2,
             "locations": [
-                -678,
-                711
+                948,
+                31
             ]
         },
         {
@@ -633,10 +632,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 11.6,
+            "angle": 36.1,
             "locations": [
-                -236,
-                756
+                215,
+                -256
             ]
         },
         {
@@ -645,10 +644,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 309.4,
+            "angle": 308.8,
             "locations": [
-                -156,
-                523
+                573,
+                146
             ]
         },
         {
@@ -657,10 +656,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 200.5,
+            "angle": 279.3,
             "locations": [
-                -344,
-                -43
+                -630,
+                -807
             ]
         },
         {
@@ -669,10 +668,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 28.1,
+            "angle": 166.3,
             "locations": [
-                59,
-                579
+                -729,
+                392
             ]
         },
         {
@@ -681,10 +680,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 265.8,
+            "angle": 15.8,
             "locations": [
-                885,
-                -372
+                -825,
+                -363
             ]
         },
         {
@@ -693,10 +692,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 267.5,
+            "angle": 148.8,
             "locations": [
-                -681,
-                -73
+                530,
+                357
             ]
         },
         {
@@ -705,10 +704,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 35.4,
+            "angle": 0.3,
             "locations": [
-                220,
-                -999
+                442,
+                -515
             ]
         },
         {
@@ -717,10 +716,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 224.6,
+            "angle": 51.0,
             "locations": [
-                -711,
-                -383
+                191,
+                293
             ]
         },
         {
@@ -729,10 +728,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 190.9,
+            "angle": 81.3,
             "locations": [
-                -432,
-                -841
+                -139,
+                -43
             ]
         },
         {
@@ -741,10 +740,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 193.7,
+            "angle": 108.9,
             "locations": [
-                424,
-                -96
+                -341,
+                -20
             ]
         },
         {
@@ -753,10 +752,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 102.9,
+            "angle": 219.7,
             "locations": [
-                170,
-                -727
+                -339,
+                -920
             ]
         },
         {
@@ -765,10 +764,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 227.4,
+            "angle": 158.4,
             "locations": [
-                -445,
-                -341
+                22,
+                406
             ]
         },
         {
@@ -777,10 +776,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 142.2,
+            "angle": 31.0,
             "locations": [
-                -331,
-                -706
+                -777,
+                -142
             ]
         },
         {
@@ -789,10 +788,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 78.1,
+            "angle": 170.3,
             "locations": [
-                -341,
-                698
+                -793,
+                619
             ]
         },
         {
@@ -801,10 +800,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 265.5,
+            "angle": 208.1,
             "locations": [
-                633,
-                -212
+                -592,
+                -610
             ]
         },
         {
@@ -813,10 +812,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 155.0,
+            "angle": 26.4,
             "locations": [
-                97,
-                840
+                125,
+                -759
             ]
         },
         {
@@ -825,10 +824,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 128.5,
+            "angle": 266.5,
             "locations": [
-                54,
-                -547
+                -860,
+                453
             ]
         },
         {
@@ -837,10 +836,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 272.7,
+            "angle": 351.3,
             "locations": [
-                847,
-                -53
+                -787,
+                6
             ]
         },
         {
@@ -849,10 +848,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 95.5,
+            "angle": 235.7,
             "locations": [
-                -593,
-                -124
+                -712,
+                -476
             ]
         },
         {
@@ -861,10 +860,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 209.6,
+            "angle": 163.2,
             "locations": [
-                -944,
-                -208
+                -265,
+                943
             ]
         },
         {
@@ -873,10 +872,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 162.5,
+            "angle": 10.0,
             "locations": [
-                -128,
-                -908
+                -952,
+                189
             ]
         },
         {
@@ -885,10 +884,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 3.2,
+            "angle": 65.5,
             "locations": [
-                797,
-                415
+                -262,
+                161
             ]
         },
         {
@@ -897,10 +896,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 296.4,
+            "angle": 177.9,
             "locations": [
-                -975,
-                41
+                396,
+                628
             ]
         },
         {
@@ -909,10 +908,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 52.9,
+            "angle": 93.0,
             "locations": [
-                -437,
-                592
+                -208,
+                -630
             ]
         },
         {
@@ -921,10 +920,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 131.5,
+            "angle": 215.9,
             "locations": [
-                -587,
-                451
+                -71,
+                679
             ]
         },
         {
@@ -933,10 +932,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 354.8,
+            "angle": 190.0,
             "locations": [
-                124,
-                -865
+                -244,
+                504
             ]
         },
         {
@@ -945,10 +944,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 195.5,
+            "angle": 167.6,
             "locations": [
-                -925,
-                -48
+                -521,
+                848
             ]
         },
         {
@@ -957,10 +956,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 279.2,
+            "angle": 104.9,
             "locations": [
-                889,
-                -475
+                657,
+                -123
             ]
         },
         {
@@ -969,10 +968,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 81.0,
+            "angle": 101.4,
             "locations": [
-                156,
-                442
+                723,
+                -415
             ]
         },
         {
@@ -981,10 +980,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 238.5,
+            "angle": 146.5,
             "locations": [
-                3,
-                735
+                -273,
+                360
             ]
         },
         {
@@ -993,10 +992,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 274.7,
+            "angle": 90.5,
             "locations": [
-                274,
-                800
+                320,
+                30
             ]
         },
         {
@@ -1005,10 +1004,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 147.7,
+            "angle": 218.8,
             "locations": [
-                788,
-                589
+                -682,
+                -714
             ]
         },
         {
@@ -1017,10 +1016,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 316.4,
+            "angle": 140.0,
             "locations": [
-                -721,
-                245
+                -187,
+                412
             ]
         },
         {
@@ -1029,10 +1028,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 25.4,
+            "angle": 268.6,
             "locations": [
-                -598,
-                -412
+                -55,
+                -222
             ]
         },
         {
@@ -1041,10 +1040,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 196.4,
+            "angle": 103.0,
             "locations": [
-                -474,
-                713
+                22,
+                -39
             ]
         },
         {
@@ -1053,10 +1052,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 201.9,
+            "angle": 67.2,
             "locations": [
-                357,
-                137
+                -344,
+                -687
             ]
         },
         {
@@ -1065,10 +1064,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 209.7,
+            "angle": 261.0,
             "locations": [
-                -136,
-                763
+                -12,
+                137
             ]
         },
         {
@@ -1077,10 +1076,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 233.4,
+            "angle": 231.9,
             "locations": [
-                295,
-                242
+                412,
+                -859
             ]
         },
         {
@@ -1089,10 +1088,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 309.4,
+            "angle": 156.7,
             "locations": [
-                641,
-                236
+                969,
+                -198
             ]
         },
         {
@@ -1101,10 +1100,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 187.4,
+            "angle": 312.4,
             "locations": [
-                -804,
-                474
+                -938,
+                -312
             ]
         },
         {
@@ -1113,10 +1112,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 288.1,
+            "angle": 223.9,
             "locations": [
-                515,
-                497
+                -466,
+                605
             ]
         },
         {
@@ -1125,10 +1124,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 157.8,
+            "angle": 116.1,
             "locations": [
-                953,
-                -74
+                705,
+                227
             ]
         },
         {
@@ -1137,10 +1136,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 167.2,
+            "angle": 151.1,
             "locations": [
-                84,
-                153
+                471,
+                -648
             ]
         },
         {
@@ -1149,10 +1148,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 142.9,
+            "angle": 227.0,
             "locations": [
-                555,
-                -537
+                886,
+                444
             ]
         },
         {
@@ -1161,10 +1160,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 12.1,
+            "angle": 49.7,
             "locations": [
-                -4,
-                -252
+                -445,
+                356
             ]
         },
         {
@@ -1173,10 +1172,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 65.2,
+            "angle": 207.2,
             "locations": [
-                432,
-                218
+                604,
+                -374
             ]
         },
         {
@@ -1185,10 +1184,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 165.6,
+            "angle": 204.2,
             "locations": [
-                302,
-                -830
+                114,
+                -423
             ]
         },
         {
@@ -1197,10 +1196,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 88.4,
+            "angle": 74.2,
             "locations": [
-                141,
-                980
+                371,
+                -184
             ]
         },
         {
@@ -1209,10 +1208,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 17.0,
+            "angle": 4.2,
             "locations": [
-                947,
-                283
+                328,
+                -604
             ]
         },
         {
@@ -1221,10 +1220,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 337.3,
+            "angle": 279.9,
             "locations": [
-                478,
-                -613
+                -326,
+                -230
             ]
         },
         {
@@ -1233,10 +1232,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 26.6,
+            "angle": 299.2,
             "locations": [
-                -813,
-                -423
+                -502,
+                448
             ]
         },
         {
@@ -1245,10 +1244,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 346.3,
+            "angle": 256.7,
             "locations": [
-                -552,
-                307
+                299,
+                -922
             ]
         },
         {
@@ -1257,10 +1256,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 51.9,
+            "angle": 129.2,
             "locations": [
-                -712,
-                29
+                -427,
+                -92
             ]
         },
         {
@@ -1269,10 +1268,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 84.8,
+            "angle": 202.9,
             "locations": [
-                472,
-                16
+                672,
+                391
             ]
         },
         {
@@ -1281,10 +1280,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 289.6,
+            "angle": 186.4,
             "locations": [
-                515,
-                -347
+                559,
+                -707
             ]
         },
         {
@@ -1293,10 +1292,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 124.5,
+            "angle": 281.5,
             "locations": [
-                117,
-                -328
+                -222,
+                -969
             ]
         },
         {
@@ -1305,10 +1304,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 167.9,
+            "angle": 208.0,
             "locations": [
-                -242,
-                -454
+                923,
+                -290
             ]
         },
         {
@@ -1317,10 +1316,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 189.0,
+            "angle": 150.5,
             "locations": [
-                -319,
-                373
+                -414,
+                -762
             ]
         },
         {
@@ -1329,10 +1328,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 111.5,
+            "angle": 273.1,
             "locations": [
-                -53,
-                367
+                -49,
+                -379
             ]
         },
         {
@@ -1341,10 +1340,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 47.0,
+            "angle": 58.2,
             "locations": [
-                -535,
-                -288
+                -1,
+                849
             ]
         },
         {
@@ -1353,10 +1352,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 5.7,
+            "angle": 48.4,
             "locations": [
-                529,
-                168
+                424,
+                412
             ]
         },
         {
@@ -1365,10 +1364,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 252.3,
+            "angle": 225.2,
             "locations": [
-                628,
-                88
+                -227,
+                -428
             ]
         },
         {
@@ -1377,10 +1376,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 244.0,
+            "angle": 261.4,
             "locations": [
-                -910,
-                454
+                229,
+                -699
             ]
         },
         {
@@ -1389,10 +1388,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 308.8,
+            "angle": 76.0,
             "locations": [
-                681,
-                362
+                665,
+                68
             ]
         },
         {
@@ -1401,10 +1400,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 309.4,
+            "angle": 359.9,
             "locations": [
-                957,
-                -213
+                761,
+                20
             ]
         },
         {
@@ -1413,10 +1412,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 292.9,
+            "angle": 234.3,
             "locations": [
-                -186,
-                408
+                -387,
+                197
             ]
         },
         {
@@ -1425,10 +1424,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 77.0,
+            "angle": 237.2,
             "locations": [
-                -28,
-                504
+                659,
+                -731
             ]
         },
         {
@@ -1437,10 +1436,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 279.8,
+            "angle": 199.4,
             "locations": [
-                500,
-                -805
+                986,
+                240
             ]
         },
         {
@@ -1449,10 +1448,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 45.3,
+            "angle": 58.9,
             "locations": [
-                -569,
-                655
+                166,
+                -891
             ]
         },
         {
@@ -1461,10 +1460,10 @@
             "type": "STATION_MODULE",
             "mount": "HARDPOINT",
             "arc": 0,
-            "angle": 184.7,
+            "angle": 259.1,
             "locations": [
-                -22,
-                -433
+                -253,
+                -135
             ]
         }
     ],

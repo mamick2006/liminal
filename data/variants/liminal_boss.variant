@@ -1,9 +1,9 @@
 {
 	"displayName": "Abomination",
-	"fluxCapacitors": 0,
-	"fluxVents": 0,
+	"fluxCapacitors": 50,
+	"fluxVents": 50,
 	"hullId": "liminal_boss_core",
-	"hullMods": [],
+	"hullMods": ["liminal_polymorphic"],
 	"quality": 0.5,
 	"variantId": "liminal_boss",
 	"weaponGroups": [],

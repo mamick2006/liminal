@@ -1,0 +1,2 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+Liminal Gateway,liminal_market_condition,TRUE,,liminal.faction.LiminalMarketCondition,"This planet serves as a staging ground for the Servants of the Entity, the entire planet under the sway of a different set of rules. All you know is that whatever's going on, there sure is a lot of it.",graphics/liminal/icons/intel_crisis6.png,0
