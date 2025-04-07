@@ -1,6 +1,14 @@
 v2.0.0
 Save compatible. Can be added to existing saves.
 
+- Made the sound when your templates are turned off louder.
+- Made attacking Invasion staging planet easier, and ships aren't recoverable.
+- You'll see :)
+
+
+v2.0.0
+Save compatible. Can be added to existing saves.
+
 Features:
 - Adds the Liminal super end game crisis!!!!! This crisis is *very hard*, and by far the hardest modded content I know of, especially if you turn up the difficulty settings.
 
