@@ -1,4 +1,4 @@
-v2.0.0
+v2.0.1
 Save compatible. Can be added to existing saves.
 
 - Made the sound when your templates are turned off louder.
