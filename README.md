@@ -3,7 +3,7 @@
 
 # Liminal: Custom, Upgradeable Hullmods
 > Using a hole in reality to change the laws of physics. What could possibly go wrong?
-> Last words of a Galatia Academy Researcher
+> - Last words of a Galatia Academy Researcher
 
 Create custom, upgradeable hullmods that rewrite reality. Unlock, upgrade, and slot together different effects into templates, that can be equipped as hullmods onto your ships. Research costs credits, as does using templates (so you probably can't equip a massive fleet with these).
 
