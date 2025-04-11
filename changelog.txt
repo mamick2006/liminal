@@ -1,3 +1,18 @@
+v2.0.2
+Save compatible. Can be added to existing saves.
+
+- Added README
+- Made it clear that crisis is unaffected by whether Instructions are unlocked or leveled.
+- Increased difficulty, especially for higher difficulties.
+- Added a setting to change how many Instructions you can fit into a template.
+- Probably reduced explosions when fighting boss.
+- Reset ship destroyed progress when crisis begins.
+- An invasion will fire as soon as the crisis begins, and the initial time between invasions is now 1 month.
+- More support for Gacha Hullmods.
+- Removed .git directory.
+
+
+
 v2.0.1
 Save compatible. Can be added to existing saves.
 
