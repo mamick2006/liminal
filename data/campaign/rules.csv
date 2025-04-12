@@ -2,7 +2,7 @@ id,trigger,conditions,script,text,options,notes
 #RULESET_NAME liminal,,,,,,
 ,,,,,,
 liminal_galatia_start0,PopulateOptions,"$id == station_galatia_academy
-!$player.liminal_hullmods_enabled",,"Out of the corner of your eye, you see an excited group of researchers wave you down.",99:liminal_galatia_liminalitystart:Talk to the researchers,
+!$player.liminal_hullmods_enabled",,"Out of the corner of your eye, you see an excited group of researchers wave you down.",97:liminal_galatia_liminalitystart:Talk to the researchers,
 liminal_galatia_start_c1,PopulateOptions,"$id == station_galatia_academy
 $player.credits < 30000","SetTooltip liminal_galatia_liminalitystart ""Requires at least 30,000 credits.""
 SetTooltipHighlights liminal_galatia_liminalitystart ""30,000""
@@ -152,13 +152,17 @@ liminal_leave,DialogOptionSelected,$option == liminal_leave,DismissDialog,,,
 liminal_faction_see,OpenInteractionDialog,"$tag:liminal_invasion
 $hasMarket score:10000","ShowImageVisual liminal_planet
 SetTextHighlightColors bad bad hl
-SetTextHighlights ""sinister"" ""a wound in reality"" ""reality anchors are ready to be deployed""","What appears to be a colony from orbit reveals itself as something far more sinister upon closer inspection - buildings that are larger on the inside, structures that connect to nowhere and everywhere simultaneously, and inhabitants that move in ways that suggest they're no longer fully human.
+SetTextHighlights ""sinister"" ""a wound in reality"" ""reality anchors are ready to be deployed""
+FireAll liminal_planet_select","What appears to be a colony from orbit reveals itself as something far more sinister upon closer inspection - buildings that are larger on the inside, structures that connect to nowhere and everywhere simultaneously, and inhabitants that move in ways that suggest they're no longer fully human.
 
 Scans detect massive energy signatures beneath the surface. This is not merely a staging ground - it is a wound in reality, a beachhead from which the Entity seeks to enter our universe.
 
-The reality anchors are ready to be deployed to close the wound. All you need to do is get close enough, but based on the defenses you've seen so far this will be no easy task.","liminal_faction_see_fight:Move the anchors into position
-liminal_leave:Leave",
-liminal_faction_see_fight,DialogOptionSelected,$option == liminal_faction_see_fight,"SetTextHighlightColors ""255,165,0,255""
+The reality anchors are ready to be deployed to close the wound. All you need to do is get close enough, but based on the defenses you've seen so far this will be no easy task.","99:liminal_leave:Leave",
+liminal_see_fight_select_1,liminal_planet_select,$global.liminalRemainingPlanets == 4,,,liminal_faction_see_fight_1:Move the anchors into position,
+liminal_see_fight_select_2,liminal_planet_select,$global.liminalRemainingPlanets == 3,,,liminal_faction_see_fight_2:Move the anchors into position,
+liminal_see_fight_select_3,liminal_planet_select,$global.liminalRemainingPlanets == 2,,,liminal_faction_see_fight_3:Move the anchors into position,
+liminal_see_fight_select_4,liminal_planet_select,$global.liminalRemainingPlanets == 1,,,liminal_faction_see_fight_4:Move the anchors into position,
+liminal_faction_see_fight_1,DialogOptionSelected,$option == liminal_faction_see_fight_1,"SetTextHighlightColors ""255,165,0,255""
 SetTextHighlights ""they're drawing power directly from the wound""
 Liminal_AttackPlanetInteraction","A massive swarm of twisted frigates comes up to meet you.
 
@@ -167,6 +171,35 @@ As your fleet approaches, you notice most of them appear to be civilian shuttles
 As they get closer, your sensors officer's voice catches. ""$PlayerSirOrMadam... those aren't normal shuttles. The weapon mounts... the energy readings... they're drawing power directly from the wound.""
 
 These may be the Entity's rejects, but this close to the source of its power, even its castoffs are deadly. Your fleet readies for battle.",,
+liminal_faction_see_fight_2,DialogOptionSelected,$option == liminal_faction_see_fight_2,"SetTextHighlightColors ""255,165,0,255""
+SetTextHighlights ""draw power directly from the wound""
+Liminal_AttackPlanetInteraction","A massive swarm of twisted frigates comes up to meet you.
+
+As they approach, you notice this swarm is different from the one you faced before; their designs are meant for war. The Servents of the Entity are learning. They might have been caught off guard last time, but it seems like each planet will grow more challenging.
+
+""$PlayerSirOrMadam these defenses are different from the last, but they still draw power directly from the wound.""
+
+They swarm like insects, but insects adapt. Your fleet readies for battle.",,
+liminal_faction_see_fight_3,DialogOptionSelected,$option == liminal_faction_see_fight_3,"SetTextHighlightColors ""255,165,0,255""
+SetTextHighlights ""Twisted melodies surround you""
+Liminal_AttackPlanetInteraction","At first you are relived to see only a handful of ships. A handful of ships, even capital ships, shouldn't provide much trouble.
+
+And then they draw closer and you realise you recognise these ships. The handful of ships, though they may not be known to the general public, are ones you thought unique.
+
+Ziggurats. Not just one, but multiple. And just as powered by the wound as everything else you've faced so far.
+
+""How did they..."" you hear a voice say beside you. ""Wasn't it...?""
+
+Twisted melodies surround you, warped by the wrongness that you thought had already become familiar. For the first time, you know that everyone around you can hear it too.
+
+Your fleet readies for battle.",,
+liminal_faction_see_fight_4,DialogOptionSelected,$option == liminal_faction_see_fight_4,"SetTextHighlightColors ""255,165,0,255""
+SetTextHighlights ""Your fleet readies for battle""
+Liminal_AttackPlanetInteraction","A fleet raises up to meet you. Unlike all the previous planets, the term fleet is correct here.
+
+Though you may never become used to seeing the warped reflections of familiar ships, you at least have become used to fighting them. The anchor is ready.
+
+Your fleet readies for battle.",,
 liminal_leave_option,LiminalLeaveOption,,,,liminal_leave:Leave,
 liminal_faction_planet_non_staging,MarketPostOpen,"$faction.id == liminal
 $hasMarket score:10000","$tradeMode = NONE 0
