@@ -1,3 +1,11 @@
+v2.0.3
+Save compatible. Can be added to existing saves.
+
+*More Crisis variety*
+- Each crisis staging ground planet will now have a different and challenging fleet theme, to add variety when fighting the crisis.
+- Fixed crash when fighting the final boss multiple times.
+
+
 v2.0.2
 Save compatible. Can be added to existing saves.
 
