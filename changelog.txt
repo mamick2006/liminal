@@ -1,3 +1,12 @@
+v2.0.4
+Save compatible. Can be added to existing saves.
+
+- Fixed a crash that can happen rarely if a ship with a regen Instruction is destroyed.
+- Changed capital ship variant used when invading a planet to the better one.
+- Fixed a bug to detect when crisis ships should be transformed. This probably only applies to things like More Military Missions.
+- Fixed a bug that led to flux dissipation and capacity being like 200k for the crisis, because of an interaction between modded weapons requiring 10000 OP and ordnance expertise giving ships flux capacity/dissipation based on OP cost.
+
+
 v2.0.3
 Save compatible. Can be added to existing saves.
 
@@ -18,7 +27,6 @@ Save compatible. Can be added to existing saves.
 - An invasion will fire as soon as the crisis begins, and the initial time between invasions is now 1 month.
 - More support for Gacha Hullmods.
 - Removed .git directory.
-
 
 
 v2.0.1
