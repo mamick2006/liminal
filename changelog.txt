@@ -1,3 +1,8 @@
+v2.0.5
+Save compatible. Can be added to existing saves.
+
+- Used a built-in Windows tool for zipping files instead of 7-zip?? This might fix the false positive Trojan notifications some people are getting???? If this doesn't fix it, I have no other ideas.
+
 v2.0.4
 Save compatible. Can be added to existing saves.
 
