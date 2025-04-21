@@ -1,3 +1,8 @@
+v2.0.6
+Save compatible. Can be added to existing saves.
+
+- Try again to fix the false positive Trojan notifications (the only change is how the files are zipped). This fixes it for at least two people.
+
 v2.0.5
 Save compatible. Can be added to existing saves.
 
