@@ -1,3 +1,14 @@
+v2.0.7
+Save compatible. Can be added to existing saves.
+
+- Fixed a bug where fighter bays given by Instructions were cleared on game load if the ship had no other fighter bays.
+- Decreased scaling with decreased compute for the crisis boss.
+- Capped the ship speed Instruction and ship regen Instruction, to avoid multiplicative effects with other Instructions for higher difficulties of the crisis.
+- Decreased the number of ships in planet invasions, but made them stronger. This is especially noticeable for higher difficulties.
+- Clarified in settings that higher difficulties are more computationally intensive.
+- Disabled talking to the research team once the crisis has begun.
+
+
 v2.0.6
 Save compatible. Can be added to existing saves.
 
