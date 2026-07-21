@@ -17,7 +17,7 @@ Begin your journey today at the Galatia Academy!
 
 ## Screenshots
 
-![alt text](https://i.imgur.com/ffs7BkP.png)
-![alt text](https://i.imgur.com/24KbLNp.png)
-![alt text](https://i.imgur.com/8vf7KDX.png)
-![alt text](https://i.imgur.com/bPiMq4i.png)
+![alt text](screenshots/liminal_console_01_menus.png)
+![alt text](screenshots/liminal_console_09_developed_template1.png)
+![alt text](screenshots/liminal_console_08_developed_research_bottom.png)
+![alt text](screenshots/liminal_paragon_template4.png)
