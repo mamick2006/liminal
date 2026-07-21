@@ -1,3 +1,22 @@
+v3.0.0
+Probably not save compatible with previous versions of the mod. Can be added to existing saves.
+
+- Nine new Instructions: Glitched Actuators, Liquid Armor, Breach Targeting, Fire Discipline, Close Air Support Doctrine, Flash Repair, Capacitor Blanking Plates, Override Beacon, and Anchored Firing Solutions.
+  - Probably shouldn't make the endgame crisis that much harder? But will make it a little harder
+- Templates can now hold a second Advanced Logistic or Unique Instruction for an extra cost.
+- You can now save/load loadouts, to make switching easier.
+- Liminal screens now live in a proper core tab, opened with the new Manage (Y) button on the bottom bar (shared with my other mods).
+- New illustrations, typo fixes and other text changes everywhere.
+- Added a monthly upkeep cap setting. If the month's charge would go over the cap, your templates are turned off instead.
+- Added a setting for the chance NPC ships get Liminal instructions.
+- Added a setting to override template capacity.
+- Fixed interactions with modules.
+- Fixed every crash and bug report I was told about (mostly around the crisis).
+- Fixed research-team donation options being wrongly greyed out if you'd just bought the commodities while docked.
+- The raid-strength/salvage-yield Instructions now scale with level properly.
+- Updated to 0.98a-RC8.
+
+
 v2.0.7
 Save compatible. Can be added to existing saves.
 

@@ -1,24 +1,24 @@
 id,type,text1,text2,text3,text4,notes
-liminal_boss_core,SHIP,"A massive vessel that defies conventional understanding, fluctuating between different configurations as if unable to decide on a single form in our universe. This appears to be the main conduit the invasion uses to enter our reality: a distorted version of the Liminality. You hear screams of false reflections inside.
+liminal_boss_core,SHIP,"A vast vessel that refuses to hold a single shape, sliding between configurations as if it cannot decide which to wear in our universe. This is the conduit the invasion pushes through: a copy of the Liminality, rendered wrong. Somewhere inside, false reflections are screaming.
 
-Sensors fail to get a consistent reading, and crew members report discomfort and disorientation when observing it directly. Those who stare too long at its impossible geometries report hearing whispers from another reality - instructions in an alien language that somehow feels familiar yet utterly wrong.",,,,
-liminal_abomination_frigate,SHIP,"A twisted mockery of conventional design, this vessel is an attempt to create something that can exist in our universe. Its hull constantly shifts and warps as if struggling to maintain coherence. Even through space, you can hear the screams of its twisted crew.
+Sensors give a different reading every time they run. The crew reports headaches and vertigo after looking at it too long, and those who look longest report whispers. Instructions, in a language no one taught them.",,,,
+liminal_abomination_frigate,SHIP,"A frigate, or a copy of one: rivet lines that never meet, a hull number stenciled in a script that is almost the Sector's own. Every ship in the swarm has the same number.
 
-The ship's systems operate according to principles that defy the laws of physics, drawing power from outside our universe, ignoring reality far beyond what we can replicate.",,,,
-liminal_abomination_destroyer,SHIP,"A twisted mockery of conventional design, this vessel is an attempt to create something that can exist in our universe. Its hull constantly shifts and warps as if struggling to maintain coherence. Even through space, you can hear the screams of its twisted crew.
+The reactor is off according to our instruments, and still it burns hot to close the distance. Something is causing the thrust. It isn't the ship.",,,,
+liminal_abomination_destroyer,SHIP,"The tracking plot calls it a destroyer and can't decide where the spine is. Its armor is in all the right places, and yet seems to float a meter away from the ship itself.
 
-The ship's systems operate according to principles that defy the laws of physics, drawing power from outside our universe, ignoring reality far beyond what we can replicate.",,,,
-liminal_abomination_cruiser,SHIP,"A twisted mockery of conventional design, this vessel is an attempt to create something that can exist in our universe. Its hull constantly shifts and warps as if struggling to maintain coherence. Even through space, you can hear the screams of its twisted crew.
+The open channel carries the noise of a crew. Not words, not quite screams, but instead a recording of a crew from a movie. You can hear a laugh-track. Comms logs the feed and cuts it.",,,,
+liminal_abomination_cruiser,SHIP,"A cruiser's mass, a cruiser's shadow, and a weapons layout that matches no doctrine on file. Gun mounts open onto sealed compartments. A hangar bay opens where the deck plan shows solid hull.
 
-The ship's systems operate according to principles that defy the laws of physics, drawing power from outside our universe, ignoring reality far beyond what we can replicate.",,,,
-liminal_abomination_capital,SHIP,"A twisted mockery of conventional design, this vessel is an attempt to create something that can exist in our universe. Its hull constantly shifts and warps as if struggling to maintain coherence. Even through space, you can hear the screams of its twisted crew.
+It fights well regardless.",,,,
+liminal_abomination_capital,SHIP,"Capital tonnage, technically, though the tonnage changes before your eyes. It has the facade of a dozen famous hulls at once, like something built from stories of what a warship is rather than from a warship.
 
-The ship's systems operate according to principles that defy the laws of physics, drawing power from outside our universe, ignoring reality far beyond what we can replicate.",,,,
-planet_liminal_invasion_planet,CUSTOM,"A world corrupted by the Entity's influence, where reality itself seems to bend and fracture. The surface shifts between states - sometimes appearing as barren rock, sometimes as churning liquid, sometimes as something that defies categorization entirely.
+Deep sensor sweeps map decks that are gone on the return pass. There is nothing aboard worth salvaging that would survive being understood.",,,,
+planet_liminal_invasion_planet,CUSTOM,"A world under the Entity's influence. On one pass the surface reads as barren rock; on the next, churning liquid; on a third, something the survey software fails to identify at all.
 
-Massive structures of impossible geometry rise from the surface, their purpose unknowable yet clearly malevolent. Always, however, the planet is more full of people and industry than any you've ever seen.",,"What appears to be a colony from orbit reveals itself as something far more sinister upon closer inspection - buildings that are larger on the inside, structures that connect to nowhere and everywhere simultaneously, and inhabitants that move in ways that suggest they're no longer fully human.
+Structures rise from it, meeting at random angles. Whatever they are for, it is not for anyone still living here. And the place is crowded, more people, more industry, packed tighter than any world in the survey records.",,"From orbit it reads as a colony. Up close the reading falls apart: buildings larger inside than out, corridors that open onto nowhere and everywhere at once, and people who move a little too correctly.
 
-Scans detect massive energy signatures beneath the surface. This is not merely a staging ground - it is a wound in reality, a beachhead from which the Entity seeks to enter our universe.",,
-liminal_barren_deep_space,CUSTOM,"A dead world, scoured clean of all traces of the Entity's influence. Where once stood impossible geometries and masses of people, now only empty foundations and glassy craters remain. The surface has been blasted into a barren wasteland by the violent collapse of reality.
+Scans record energy signatures under the crust that climb past every scale the instruments can measure. The source is a rift held open from the far side. The research team calls it the wound.",,
+liminal_barren_deep_space,CUSTOM,"A dead world, scoured clean of every trace of the Entity's influence. Reality, forced back into its old shape, did not return what the Entity had taken.
 
-No signs remain of what this world once was before the invasion.",,,,,
+The architecture that never agreed with itself is gone. What remains is empty foundations and glassy craters.",,,,,

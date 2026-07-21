@@ -12,6 +12,8 @@
     "liminal.rules"
   ],
   "graphics": {
+		# The Management button's plate extension renders at RUNTIME from the game's own
+		# "ui"/"tripad_button_holder" sprite; no composed PNG ships.
     "illustrations": {
       "liminal_liminality": "graphics/liminal/illustrations/liminality.png",
       "liminal_ship_drive": "graphics/liminal/illustrations/ship_drive.png",
@@ -44,8 +46,20 @@
       "liminal_time_flow": "graphics/liminal/illustrations/time_flow.png",
       "liminal_regen": "graphics/liminal/illustrations/regen.png",
       "liminal_damage_cap": "graphics/liminal/illustrations/damage_cap.png",
+      "liminal_glitched_actuators": "graphics/liminal/illustrations/glitched_actuators.png",
+      "liminal_liquid_armor": "graphics/liminal/illustrations/liquid_armor.png",
+      "liminal_breach_targeting": "graphics/liminal/illustrations/breach_targeting.png",
+      "liminal_fire_discipline": "graphics/liminal/illustrations/fire_discipline.png",
+      "liminal_close_air_support": "graphics/liminal/illustrations/close_air_support.png",
+      "liminal_flash_repair": "graphics/liminal/illustrations/flash_repair.png",
+      "liminal_capacitor_blanking_plates": "graphics/liminal/illustrations/capacitor_blanking_plates.png",
+      "liminal_override_beacon": "graphics/liminal/illustrations/override_beacon.png",
+      "liminal_anchored_firing_solutions": "graphics/liminal/illustrations/anchored_firing_solutions.png",
       "liminal_liminality_bad": "graphics/liminal/illustrations/liminality_bad.png",
-      "liminal_planet": "graphics/liminal/illustrations/liminality_planet.png"
+      "liminal_planet": "graphics/liminal/illustrations/liminality_planet.png",
+      "liminal_console_upkeep": "graphics/liminal/illustrations/console_upkeep.png",
+      "liminal_console_crisis": "graphics/liminal/illustrations/console_crisis.png",
+      "liminal_console_crisis_pre": "graphics/liminal/illustrations/console_crisis_pre.png"
     },
     "characters": {
       "liminal_elna": "graphics/liminal/portraits/elna.png",

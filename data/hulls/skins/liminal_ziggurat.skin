@@ -1,0 +1,15 @@
+{
+	"baseHullId":"ziggurat",
+	"skinHullId":"liminal_ziggurat",
+	"hullName":"Ziggurat",
+	"restoreToBaseHull":false,
+	"systemId":"liminal_mote_control",
+	"addHints":[HIDE_IN_CODEX],
+	"removeWeaponSlots":[],
+	"removeEngineSlots":[],
+	"removeBuiltInMods":[],
+	"removeBuiltInWeapons":[],
+	"builtInMods":[],
+	"builtInWeapons":{
+	},
+}

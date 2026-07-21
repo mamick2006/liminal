@@ -1,0 +1,16 @@
+{
+	"id":"liminal_mote_control",
+	"type":"STAT_MOD",
+	"aiType":"MOTE_ATTRACTOR",
+
+	"runScriptWhileIdle":true,
+	"canUseWhileRightClickSystemOn":true,
+
+	"statsScript":"liminal.combat.LiminalMoteControlScript",
+
+	"useSound":"mote_attractor_system_activated",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"aiHints":{
+	}
+}
