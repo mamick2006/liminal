@@ -1,5 +1,6 @@
 fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
 liminal_settingsHeader,Liminal Header,Header,Liminal,,,,,
+liminal_mgmt_intel_only,Manage on Intel Screen Only,Boolean,false,,"Manage this mod through an intel screen entry instead of its own Management bar button (for mod compatibility). If you don't see the manage button at the bottom, try turning this on. Takes effect on the next game load.",,,
 liminal_rpmult,Research Points (RP) Gained,Int,4,,How many research points you gain each time a Liminal event stage completes. Not retroactive. You may want to change when the crisis begins below.,0,15,
 liminal_costmulttemplate,Template Cost Multiplier,Double,1.0,,[Will affect balance a lot] Multiplier on the monthly credit cost of Liminal Templates.,0,5.0,
 liminal_templateopmult,Template OP Multiplier,Double,1.0,,[Will affect balance a lot] Multiplier on how many OP of Instructions you can fit inside templates.,0.2,2.0,

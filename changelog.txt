@@ -1,3 +1,8 @@
+v3.0.1
+Save compatible. Can be added to existing saves.
+
+- Added a setting to open management from the Intel screen instead of the bottom bar, for mod compatibility.
+
 v3.0.0
 Probably not save compatible with previous versions of the mod. Can be added to existing saves.
 
