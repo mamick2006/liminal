@@ -1,0 +1,2 @@
+id,name,category,scope,cost,space,staff,pctOfTotal,illustration,effect,plugin
+liminal_linkage_shop,Linkage Shop,Economy,fleet,40000,60,30,0,,"Liminal Template upkeep is 20% lower.",liminal.crossmod.LinkageShopEffect

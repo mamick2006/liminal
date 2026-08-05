@@ -59,7 +59,12 @@
       "liminal_planet": "graphics/liminal/illustrations/liminality_planet.png",
       "liminal_console_upkeep": "graphics/liminal/illustrations/console_upkeep.png",
       "liminal_console_crisis": "graphics/liminal/illustrations/console_crisis.png",
-      "liminal_console_crisis_pre": "graphics/liminal/illustrations/console_crisis_pre.png"
+      "liminal_console_crisis_pre": "graphics/liminal/illustrations/console_crisis_pre.png",
+      # Nomad Flotilla derives a Work's illustration key from its row id. The registry deep-merges,
+      # so this joins that mod's category without either mod changing for the other. It renders in a
+      # 160x100 row cell and ships at 480x300, matching that mod's own twenty-five, because the cell
+      # is scaled down and art shipped at cell size arrives soft.
+      "nomad_work_illus_liminal_linkage_shop": "graphics/liminal/illustrations/nomad_work_illus_liminal_linkage_shop.png"
     },
     "characters": {
       "liminal_elna": "graphics/liminal/portraits/elna.png",
@@ -82,6 +87,11 @@
       "liminal_line": "graphics/liminal/icons/line.png",
       "liminal_question": "graphics/liminal/icons/question.png"
     },
+    # Captain's Quarters renders a furnishing on the cabin sheet from cq_f_<id>. A missing key
+    # draws a placeholder outline rather than failing, so this costs nothing without that mod.
+    "cq": {
+      "cq_f_liminal_standing_linkage": "graphics/liminal/furnishings/liminal_f_standing_linkage.png"
+    },
     "dialog": {
       "liminal_not_yet_our_time": "graphics/liminal/dialog/not_yet_our_time.png",
       "liminal_ah_back_again": "graphics/liminal/dialog/ah_back_again.png",
@@ -95,5 +105,30 @@
       "liminal_well_i_suppose": "graphics/liminal/dialog/well_i_suppose.png",
       "liminal_youve_won": "graphics/liminal/dialog/youve_won.png"
     }
-  }
+  },
+
+  # --- The Standing Linkage, the furnishing this mod declares into Captain's Quarters ---------
+  # Captain's Quarters polls each flag and grants its furnishing when the flag turns true. This one
+  # is the research-started presence flag, so the Linkage arrives with the research team and never
+  # before it. No code on either side.
+  "cq_quest_rewards": {
+    "$liminality_research": "liminal_standing_linkage"
+  },
+  # Research points granted at each economy month end while the furnishing is owned. The design
+  # band for a flat research bonus is 0.5 to 3 a month; 1 is what the research loop itself pays at
+  # roughly 2.7 times the minimum investment. Capped at 3 in code, whatever is written here.
+  "liminal_cq_linkage_rp_per_month": 1,
+  # Percent off hull and armor damage taken, every player ship, in the Avatar fight only. Vanilla's
+  # comparable reductions: 25 for one ship (Damage Control, Impact Mitigation), 20 fleet-wide but
+  # fighters only (Carrier Command), 10 for one ship conditionally (Systems Expertise elite).
+  "liminal_cq_linkage_boss_damage_reduction": 15,
+
+  # --- The Linkage Shop, the Work this mod declares into Nomad Flotilla -----------------------
+  # Multiplier on Liminal Template monthly upkeep while the Work stands. Composes with the player's
+  # own liminal_costmulttemplate LunaLib setting instead of replacing it.
+  "liminal_nomad_linkage_shop_upkeep_mult": 0.8,
+  # The floor on the PRODUCT of every scoped Template-upkeep discount, so no combination of them
+  # can take upkeep toward zero. The player's own multiplier is not floored: setting it to 0 is
+  # asking for free Templates, which is theirs to ask for.
+  "liminal_template_scoped_mult_floor": 0.5
 }

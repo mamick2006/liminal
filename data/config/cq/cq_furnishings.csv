@@ -1,0 +1,2 @@
+id,name,category,rarity,channel,kind,mag,pct,kind2,mag2,pct2,plugin
+liminal_standing_linkage,Standing Linkage,cq_slot_display,exceptional,quest,,1,0,,0,0,liminal.crossmod.StandingLinkageEffect

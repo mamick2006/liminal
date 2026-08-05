@@ -1,3 +1,14 @@
+v3.1.0
+Save compatible. Can be added to existing saves.
+
+- New cross-mod interactions with Captain's Quarters and Nomad Flotilla.
+
+v3.0.2
+Save compatible. Can be added to existing saves.
+
+- Hovering a greyed-out button now says why it is unavailable.
+- Internal changes for gacha hullmods mod.
+
 v3.0.1
 Save compatible. Can be added to existing saves.
 
