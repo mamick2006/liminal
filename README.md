@@ -1,5 +1,5 @@
 
-![alt text](https://i.imgur.com/PgHtXzG.png)
+![alt text](screenshots/liminal_promo_header.png)
 
 # Liminal: Custom, Upgradeable Hullmods
 > Using a hole in reality to change the laws of physics. What could possibly go wrong?
