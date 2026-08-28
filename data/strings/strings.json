@@ -196,7 +196,7 @@
     "hullmod_no_instructions": "No %s active. Activate them in the %s menu.",
     "upkeep_cost_formula_tooltip": "Cost: %s = Base Cost [%s] * %s^(%s * Num Frigates [%s] + %s * Num Destroyers [%s] + %s * Num Cruisers [%s] + %s * Num Capital Ships [%s]) * Settings Cost Multiplier [%s]\nCost = 0 if no ships use the template or it is disabled.",
     "upkeep_cost_formula_discounted_tooltip": "Cost: %s = Base Cost [%s] * %s^(%s * Num Frigates [%s] + %s * Num Destroyers [%s] + %s * Num Cruisers [%s] + %s * Num Capital Ships [%s]) * Settings Cost Multiplier [%s] * Flotilla Discount [%s]\nCost = 0 if no ships use the template or it is disabled.",
-    "linkage_effect_research": "%s RP per month",
+    "linkage_effect_research": "%s RP every %s months",
     "linkage_effect_ward": "%s hull and armor damage taken against the crisis boss",
     "linkage_needs_quarters": "Captain's Quarters is not installed.",
     "linkage_already_collected": "Already collected.",

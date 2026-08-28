@@ -1,3 +1,8 @@
+v3.1.1
+Save compatible. Can be added to existing saves.
+
+- The Captain's Quarters furnishing now gives its research point every three months instead of every month.
+
 v3.1.0
 Save compatible. Can be added to existing saves.
 

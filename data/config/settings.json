@@ -114,10 +114,11 @@
   "cq_quest_rewards": {
     "$liminality_research": "liminal_standing_linkage"
   },
-  # Research points granted at each economy month end while the furnishing is owned. The design
-  # band for a flat research bonus is 0.5 to 3 a month; 1 is what the research loop itself pays at
-  # roughly 2.7 times the minimum investment. Capped at 3 in code, whatever is written here.
+  # Research points granted each time the furnishing pays out. Capped at 3 in code.
   "liminal_cq_linkage_rp_per_month": 1,
+  # Economy month ends between payouts, clamped to 1 to 12 in code. The shipped pair is worth a
+  # third of an RP a month, under what the loop pays at the minimum research investment.
+  "liminal_cq_linkage_period_months": 3,
   # Percent off hull and armor damage taken, every player ship, in the Avatar fight only. Vanilla's
   # comparable reductions: 25 for one ship (Damage Control, Impact Mitigation), 20 fleet-wide but
   # fighters only (Carrier Command), 10 for one ship conditionally (Systems Expertise elite).
