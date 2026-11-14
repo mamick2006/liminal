@@ -1,24 +1,24 @@
 id,type,text1,text2,text3,text4,notes
-liminal_boss_core,SHIP,"A vast vessel that refuses to hold a single shape, sliding between configurations as if it cannot decide which to wear in our universe. This is the conduit the invasion pushes through: a copy of the Liminality, rendered wrong. Somewhere inside, false reflections are screaming.
+liminal_boss_core,SHIP,"The Avatar of the Entity is a vast body of countless hulls fused together, and it does not keep one shape for long. It is a distorted copy of the Liminality, and the final tether holding the Entity's connection to our universe. Somewhere inside, false reflections are screaming.
 
 Sensors give a different reading every time they run. The crew reports headaches and vertigo after looking at it too long, and those who look longest report whispers. Instructions, in a language no one taught them.",,,,
-liminal_abomination_frigate,SHIP,"A frigate, or a copy of one: rivet lines that never meet, a hull number stenciled in a script that is almost the Sector's own. Every ship in the swarm has the same number.
+liminal_abomination_frigate,SHIP,"A frigate, or a copy of one. Its rivet lines never meet, and its hull number is stenciled in letters that are almost right. Every frigate in the fleet has the same number.
 
 The reactor is off according to our instruments, and still it burns hot to close the distance. Something is causing the thrust. It isn't the ship.",,,,
 liminal_abomination_destroyer,SHIP,"The tracking plot calls it a destroyer and can't decide where the spine is. Its armor is in all the right places, and yet seems to float a meter away from the ship itself.
 
-The open channel carries the noise of a crew. Not words, not quite screams, but instead a recording of a crew from a movie. You can hear a laugh-track. Comms logs the feed and cuts it.",,,,
-liminal_abomination_cruiser,SHIP,"A cruiser's mass, a cruiser's shadow, and a weapons layout that matches no doctrine on file. Gun mounts open onto sealed compartments. A hangar bay opens where the deck plan shows solid hull.
+The open channel carries the noise of a crew, but it is a recording from a movie. You can hear a laugh track. Comms logs the feed and cuts it.",,,,
+liminal_abomination_cruiser,SHIP,"It has a cruiser's mass and a weapons layout that matches no doctrine on file. Gun mounts open onto sealed compartments. There is a hangar bay where there should be solid hull.
 
 It fights well regardless.",,,,
-liminal_abomination_capital,SHIP,"Capital tonnage, technically, though the tonnage changes before your eyes. It has the facade of a dozen famous hulls at once, like something built from stories of what a warship is rather than from a warship.
+liminal_abomination_capital,SHIP,"Capital tonnage, technically, though the tonnage changes before your eyes. It has the facade of a dozen famous hulls at once.
 
-Deep sensor sweeps map decks that are gone on the return pass. There is nothing aboard worth salvaging that would survive being understood.",,,,
-planet_liminal_invasion_planet,CUSTOM,"A world under the Entity's influence. On one pass the surface reads as barren rock; on the next, churning liquid; on a third, something the survey software fails to identify at all.
+Deep sensor sweeps map decks that are gone on the return pass.",,,,
+planet_liminal_invasion_planet,CUSTOM,"A world under the Entity's influence. On one pass the surface is barren rock; on the next, churning liquid; on a third, something the survey software fails to identify at all.
 
-Structures rise from it, meeting at random angles. Whatever they are for, it is not for anyone still living here. And the place is crowded, more people, more industry, packed tighter than any world in the survey records.",,"From orbit it reads as a colony. Up close the reading falls apart: buildings larger inside than out, corridors that open onto nowhere and everywhere at once, and people who move a little too correctly.
+Structures rise from it, meeting at random angles. No one can tell what they are for. The place is crowded, with more people and more industry than any world in the survey records.",,"From orbit it looks like a colony. Up close, the buildings are larger inside than out, the corridors open onto nowhere and everywhere at once, and the people move a little too correctly.
 
-Scans record energy signatures under the crust that climb past every scale the instruments can measure. The source is a rift held open from the far side. The research team calls it the wound.",,
-liminal_barren_deep_space,CUSTOM,"A dead world, scoured clean of every trace of the Entity's influence. Reality, forced back into its old shape, did not return what the Entity had taken.
+Scans show energy signatures under the crust, stronger than the instruments can measure. The source is a rift held open from the far side. The research team calls it the wound.",,
+liminal_barren_deep_space,CUSTOM,"A dead world, scoured clean of every trace of the Entity's influence. Reality follows its own rules here again, but what the Entity took did not come back.
 
-The architecture that never agreed with itself is gone. What remains is empty foundations and glassy craters.",,,,,
+What remains is empty foundations and glassy craters.",,,,,

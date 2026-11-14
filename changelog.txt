@@ -1,3 +1,33 @@
+v4.0.0
+Not save compatible with previous versions of the mod. Can be added to existing saves.
+
+- Updated for Starsector 0.98.5a.
+- Completely redesigned UI.
+- Templates no longer cost credits each month. Each template now has a capacity that limits how many ships can use it, and you can buy more capacity with credits.
+- Instructions no longer have a credit cost.
+- Removed the Resource Loop and Template Simplification Instructions.
+- Removed the upkeep cap and template cost multiplier settings.
+- Renamed the Template Capacity Override setting to Template OP Override. If you had changed it in LunaLib, set it again.
+- Raised the minimum research investment.
+- Lowered the OP cost of four Instructions: Breach Targeting, Flash Repair, Fire Discipline, and Override Beacon.
+- Lowered Resource Optimization's supply and fuel savings at Mk. III from 70% to 50%.
+- Lowered Spatial Expansion's cargo and fuel capacity bonus at Mk. III from 80% to 50%.
+- In a Survival Mode game, template capacity, research investment and the entry fee now cost half as much. A setting turns this off.
+- Added an Undo button to the Research tab. It undoes everything researched since you opened the screen, until you leave it.
+- Variant Alcubierre Drive's description now says that the game never lets a ship move faster than 600 in combat.
+- Secrets of the Frontier no longer punishes saturation bombing an Entity world.
+- In a sector with no Galatia Academy, such as some Nexerelin random sectors, the research starts at another market.
+- Without LunaLib, the crisis and the boss now use Standard difficulty, the settings menu's default, instead of Easy.
+- Fixed Temporal Damage Diffusion letting through up to twice its damage limit on a ship that has it from both a template and a gacha roll.
+- Fixed the Liminal Gateway condition's hazard rating change staying on a market after the condition is removed.
+- Fixed black bars along the top and bottom of the Capacitor Blanking Plates illustration.
+- Fixed loading a save without restarting the game sometimes emptying the fighter bays an Instruction adds.
+- Fixed the "Minimum research investment doubled." message still showing once the minimum is at its cap.
+- Fixed a template's list opening scrolled down after you scrolled the Research list, and the other way round.
+- The Manage button no longer overrides your own keybinding for Y.
+- Added a setting for the Manage shortcut key.
+- jars directory now has the zipped source code
+
 v3.1.1
 Save compatible. Can be added to existing saves.
 
@@ -30,7 +60,7 @@ Probably not save compatible with previous versions of the mod. Can be added to 
 - New illustrations, typo fixes and other text changes everywhere.
 - Added a monthly upkeep cap setting. If the month's charge would go over the cap, your templates are turned off instead.
 - Added a setting for the chance NPC ships get Liminal instructions.
-- Added a setting to override template capacity.
+- Added a setting to override template OP.
 - Fixed interactions with modules.
 - Fixed every crash and bug report I was told about (mostly around the crisis).
 - Fixed research-team donation options being wrongly greyed out if you'd just bought the commodities while docked.

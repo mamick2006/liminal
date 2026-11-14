@@ -1,0 +1,2 @@
+id,work,size,name,category,scope,space,staff,cost,makes,uses,params,illustration,effect,plugin
+liminal_linkage_shop_1,liminal_linkage_shop,1,Linkage Shop,Economy,fleet,60,30,40000,,,,,"Each Liminal Template has 2 more capacity.",liminal.crossmod.LinkageShopEffect

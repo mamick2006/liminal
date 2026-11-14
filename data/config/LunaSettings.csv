@@ -1,20 +1,23 @@
 fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
 liminal_settingsHeader,Liminal Header,Header,Liminal,,,,,
 liminal_mgmt_intel_only,Manage on Intel Screen Only,Boolean,false,,"Manage this mod through an intel screen entry instead of its own Management bar button (for mod compatibility). If you don't see the manage button at the bottom, try turning this on. Takes effect on the next game load.",,,
-liminal_rpmult,Research Points (RP) Gained,Int,4,,How many research points you gain each time a Liminal event stage completes. Not retroactive. You may want to change when the crisis begins below.,0,15,
-liminal_costmulttemplate,Template Cost Multiplier,Double,1.0,,[Will affect balance a lot] Multiplier on the monthly credit cost of Liminal Templates.,0,5.0,
-liminal_templateopmult,Template OP Multiplier,Double,1.0,,[Will affect balance a lot] Multiplier on how many OP of Instructions you can fit inside templates.,0.2,2.0,
-liminal_upkeepcap,Monthly Upkeep Cap,Int,500000,,"If total monthly Liminality upkeep (research investment + template upkeep) goes above this many credits, research investment and all templates are automatically disabled, the same as running out of credits. Set to 0 to disable the cap.",0,10000000,
-liminal_template_capacity_override,Template Capacity Override,Int,0,,"[Will affect balance a lot] 0 = each Liminal Template's Instruction capacity is derived from the template hullmod's OP cost as normal. Above 0, this value replaces the derived capacity for EVERY template (the post-crisis bonus and the Template OP Multiplier above still apply on top, and the RP unlock cost of still-locked templates scales up with it). The template hullmod's own OP cost when fitted to a ship is unaffected.",0,500,
+liminal_mgmt_key,Manage Shortcut Key,Keycode,21,,"Press Escape while picking a key to clear it. A key the game already uses outside of combat is ignored. Other mods may have this setting, and if more than one is changed, the first in the Manage tab row wins. Takes effect on the next game load.",,,
+liminal_rpmult,Research Points (RP) Gained,Int,4,,How many research points you gain each time a Liminal event stage completes. Not retroactive. You may also want to change the Crisis RP Begins At setting.,0,15,
+liminal_templateopmult,Template OP Multiplier,Double,1.0,,Multiplier on how many OP of Instructions you can fit inside templates.,0.2,2.0,
+liminal_template_op_override,Template OP Override,Int,0,,"How many OP of Instructions every Liminal Template can fit, instead of its normal amount. Set to 0 to disable. The post-crisis bonus and the Template OP Multiplier still apply, and the RP cost of unlocking a template scales with it. The template hullmod's own OP cost when fitted to a ship is unaffected.",0,500,
+liminal_capacity_start,Template Starting Capacity,Int,3,,"Capacity each Liminal Template starts with. A frigate uses 2, a destroyer 3, a cruiser 4 and a capital ship 5.",0,25,
+liminal_capacity_price,Template Capacity Price,Int,200000,,"Total credits to raise a template from its starting capacity to 5, enough for one capital ship.",0,5000000,
+liminal_capacity_price_growth,Template Capacity Price Growth,Double,5,,Each further 5 capacity costs this many times as much as the 5 before.,1,20,
+liminal_survival_adjustments,Survival Mode Adjustments,Boolean,true,,"In a Survival Mode game, template capacity, research investment and the entry fee cost half as many credits. Turn this off to keep the normal prices.",,,
 ,,,,,,,,
 liminal_crisisHeader,Crisis Header,Header,Liminal Crisis,,,,,
 liminal_crisis_enabled,Crisis Enabled,Boolean,true,,Whether the Liminal super endgame crisis is enabled.,,,
-liminal_crisis_begins,Crisis RP Begins At,Int,300,,How many RP before the crisis begins.,0,3000,
-liminal_crisis_difficulty,Crisis Difficulty,Radio,Standard,"Easy, Standard, Hard","Crisis difficulty. Note, higher difficulties will be more computationally intensive. Good computers are recommended for the highest settings. Recommendations:
+liminal_crisis_begins,Crisis RP Begins At,Int,300,,The crisis begins once your Total RP reaches this number.,0,3000,
+liminal_crisis_difficulty,Crisis Difficulty,Radio,Standard,"Easy, Standard, Hard","Crisis difficulty. Higher difficulties are more computationally intensive, and the highest needs a good computer. Recommendations:
 - Easy: Vanilla
 - Standard: 50-100 balanced mods
 - Hard: 200+ unbalanced mods",,,
-liminal_npc_influence_chance,NPC Ship Influence Chance (%%),Int,10,,"[Will affect balance a lot] Chance for each ship in a non-Liminal NPC fleet to gain a Liminal Connection hullmod when you encounter that fleet, once the crisis has begun. Before the crisis begins the chance ramps up to 25%%/50%% of this value as research progresses. Does not affect the Liminal faction's own fleets. WARNING: raising this means many more Liminality-influenced ships in battles, and they are recoverable afterwards.",0,100,
+liminal_npc_influence_chance,NPC Ship Influence Chance (%%),Int,10,,"Chance for each ship in a non-Liminal NPC fleet to gain a Liminal Connection hullmod when you encounter that fleet, once the crisis has begun. Before then the chance is 25%% of this value once Total RP is halfway to the crisis, and 50%% at three quarters of the way. Does not affect the Liminal faction's own fleets. WARNING: raising this means many more Liminality-influenced ships in battles, and they are recoverable afterwards.",0,100,
 ,,,,,,,,
 liminal_bossHeader,Boss Header,Header,Liminal Crisis Boss,,,,,
 liminal_boss_compute,Boss Computer Usage,Double,0.4,,"[Restart the game after changing] How computationally intensive the final boss is. Lower numbers will decrease the scale of the boss, but the overall difficulty will be the same or slightly higher. Values above 0.5 are not recommended.",0.1,1.0,

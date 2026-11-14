@@ -8,6 +8,9 @@
     ]
   },
   "plugins": {},
+  # The Manage button's shortcut key as an LWJGL key code (21 is Y, 0 is none), for a
+  # game without LunaLib. The LunaLib row of the same name overrides it.
+  "liminal_mgmt_key": 21,
   "ruleCommandPackages": [
     "liminal.rules"
   ],
@@ -26,8 +29,6 @@
       "liminal_high_maintenance": "graphics/liminal/illustrations/high_maintenance.png",
       "liminal_flux_shunt": "graphics/liminal/illustrations/flux_shunt.png",
       "liminal_extended_shield": "graphics/liminal/illustrations/extended_shield.png",
-      "liminal_negative_op": "graphics/liminal/illustrations/negative_op.png",
-      "liminal_negative_cost": "graphics/liminal/illustrations/negative_cost.png",
       "liminal_weapon_range": "graphics/liminal/illustrations/weapon_range.png",
       "liminal_weapon_damage": "graphics/liminal/illustrations/weapon_damage.png",
       "liminal_salvage_gantry": "graphics/liminal/illustrations/salvage_gantry.png",
@@ -124,12 +125,38 @@
   # fighters only (Carrier Command), 10 for one ship conditionally (Systems Expertise elite).
   "liminal_cq_linkage_boss_damage_reduction": 15,
 
+  # --- LunaLib defaults ------------------------------------------------------------------------
+  # Defaults for the LunaLib rows of the same keys, read when LunaLib is not installed.
+  "liminal_mgmt_intel_only": false,
+  "liminal_rpmult": 4,
+  "liminal_templateopmult": 1.0,
+  "liminal_template_op_override": 0,
+  "liminal_crisis_enabled": true,
+  "liminal_crisis_begins": 300,
+  "liminal_crisis_difficulty": "Standard",
+  "liminal_npc_influence_chance": 10,
+  "liminal_boss_compute": 0.4,
+  "liminal_boss_difficulty": "Standard",
+
+  # --- Template capacity ----------------------------------------------------------------------
+  # Defaults for the three LunaLib rows of the same keys, read when LunaLib is not installed.
+  # Free capacity each template starts with.
+  "liminal_capacity_start": 3,
+  # Total credits to raise a template from its starting capacity to 5.
+  "liminal_capacity_price": 200000,
+  # Each further 5 capacity costs this many times the 5 before.
+  "liminal_capacity_price_growth": 5,
+
+  # --- Survival Mode -------------------------------------------------------------------------
+  # The default for the LunaLib row of the same key, read when LunaLib is not installed. On: in a
+  # Survival Mode save every credit price this mod charges is multiplied by the factor below.
+  "liminal_survival_adjustments": true,
+  # The factor: template capacity, the research investment minimum and the entry price. Between 0
+  # and 1; anything else changes nothing.
+  "liminal_survival_credit_mult": 0.5,
+
   # --- The Linkage Shop, the Work this mod declares into Nomad Flotilla -----------------------
-  # Multiplier on Liminal Template monthly upkeep while the Work stands. Composes with the player's
-  # own liminal_costmulttemplate LunaLib setting instead of replacing it.
-  "liminal_nomad_linkage_shop_upkeep_mult": 0.8,
-  # The floor on the PRODUCT of every scoped Template-upkeep discount, so no combination of them
-  # can take upkeep toward zero. The player's own multiplier is not floored: setting it to 0 is
-  # asking for free Templates, which is theirs to ask for.
-  "liminal_template_scoped_mult_floor": 0.5
+  # Capacity every Liminal Template gains while the Work stands. The Work's effect line in
+  # data/config/nomad/nomad_work_sizes.csv states the same number.
+  "liminal_nomad_linkage_shop_capacity": 2
 }
