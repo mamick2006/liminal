@@ -17,6 +17,7 @@ import com.fs.starfarer.api.impl.campaign.intel.MessageIntel;
 import com.fs.starfarer.api.util.Misc;
 
 import liminal.LGlobals;
+import liminal.LiminalSettings;
 import liminal.LiminalStrings;
 
 public final class StartPlace {
@@ -24,6 +25,10 @@ public final class StartPlace {
   public static final String ACADEMY_ID = "station_galatia_academy";
 
   public static final String MARKET_KEY = "$liminal_start_market";
+
+  public static final String SKIP_KEY = "liminal_skip_galatia";
+
+  public static final String STARTED_KEY = "$liminal_hullmods_enabled";
 
   private StartPlace() {
   }
@@ -71,6 +76,33 @@ public final class StartPlace {
       return false;
     }
     return "main".equals(local.getString("$menuState")) && !"NONE".equals(local.getString("$tradeMode"));
+  }
+
+  public static boolean offersStart(SectorEntityToken entity, MemoryAPI local) {
+    boolean started = Global.getSector().getCharacterData().getMemoryWithoutUpdate()
+        .getBoolean(STARTED_KEY);
+    boolean here = !started && isHere(entity, local);
+    boolean skip = !started && !here && LiminalSettings.getBoolean(SKIP_KEY, false);
+    return StartPlaceMath.offersStart(started, here, skip, skip && isDockedAtMarket(entity, local));
+  }
+
+  static boolean isDockedAtMarket(SectorEntityToken entity, MemoryAPI local) {
+    if (entity == null || local == null) {
+      return false;
+    }
+    MarketAPI market = entity.getMarket();
+    if (market == null || market.isPlanetConditionMarketOnly()
+        || LGlobals.liminalFactionId.equals(market.getFactionId())) {
+      return false;
+    }
+    return "main".equals(local.getString("$menuState")) && !"NONE".equals(local.getString("$tradeMode"));
+  }
+
+  public static String nameOfDialog(SectorEntityToken entity, MemoryAPI local, boolean shortForm) {
+    if (entity != null && entity.getMarket() != null && !isHere(entity, local)) {
+      return entity.getMarket().getName();
+    }
+    return shortForm ? shortName() : name();
   }
 
   public static String name() {

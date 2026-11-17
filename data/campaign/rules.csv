@@ -1,10 +1,10 @@
 id,trigger,conditions,script,text,options,notes
 #RULESET_NAME liminal,,,,,,
 ,,,,,,
-liminal_galatia_start0,PopulateOptions,"Liminal_StartPlace here
+liminal_galatia_start0,PopulateOptions,"Liminal_StartPlace start
 !$player.liminal_hullmods_enabled","Liminal_EntryPrice set
-Liminal_StartPlace name","Out of the corner of your eye, you see an excited group of researchers wave you down.",97:liminal_galatia_liminalitystart:Talk to the researchers,
-liminal_galatia_start_c1,PopulateOptions,"Liminal_StartPlace here
+Liminal_StartPlace name local","Out of the corner of your eye, you see an excited group of researchers wave you down.",97:liminal_galatia_liminalitystart:Talk to the researchers,
+liminal_galatia_start_c1,PopulateOptions,"Liminal_StartPlace start
 Liminal_EntryPrice short","Liminal_EntryPrice tooltip liminal_galatia_liminalitystart
 SetEnabled liminal_galatia_liminalitystart false",,,
 liminal_galatia_liminalitystart,DialogOptionSelected,$option == liminal_galatia_liminalitystart,Liminal_ShowAndCreatePerson liminal_elna,"You walk up to the group of researchers. Most appear to be students or post-docs, judging by their ages and the slightly manic look of sleep deprivation in their eyes.

@@ -15,6 +15,14 @@ public final class StartPlaceMath {
     return best;
   }
 
+  public static boolean offersStart(boolean started, boolean atStartPlace, boolean skipTrip,
+      boolean dockedAtMarket) {
+    if (started) {
+      return false;
+    }
+    return atStartPlace || (skipTrip && dockedAtMarket);
+  }
+
   private static boolean better(int a, int b, String[] ids, int[] sizes, boolean[] open) {
     if (open[a] != open[b]) {
       return open[a];

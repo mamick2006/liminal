@@ -9,6 +9,7 @@ liminal_capacity_start,Template Starting Capacity,Int,3,,"Capacity each Liminal 
 liminal_capacity_price,Template Capacity Price,Int,200000,,"Total credits to raise a template from its starting capacity to 5, enough for one capital ship.",0,5000000,
 liminal_capacity_price_growth,Template Capacity Price Growth,Double,5,,Each further 5 capacity costs this many times as much as the 5 before.,1,20,
 liminal_survival_adjustments,Survival Mode Adjustments,Boolean,true,,"In a Survival Mode game, template capacity, research investment and the entry fee cost half as many credits. Turn this off to keep the normal prices.",,,
+liminal_skip_galatia,Start at Any Market,Boolean,false,,"Meet the Liminal researchers at any market you dock at, not only at the Galatia Academy. The entry fee stays the same, and the boss fight still happens at the Academy.",,,
 ,,,,,,,,
 liminal_crisisHeader,Crisis Header,Header,Liminal Crisis,,,,,
 liminal_crisis_enabled,Crisis Enabled,Boolean,true,,Whether the Liminal super endgame crisis is enabled.,,,

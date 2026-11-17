@@ -1,3 +1,8 @@
+v4.0.1
+Save compatible. Can be added to existing saves.
+
+- Added a setting to start without going to the Galatia Academy.
+
 v4.0.0
 Not save compatible with previous versions of the mod. Can be added to existing saves.
 

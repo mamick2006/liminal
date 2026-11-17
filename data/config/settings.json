@@ -155,6 +155,11 @@
   # and 1; anything else changes nothing.
   "liminal_survival_credit_mult": 0.5,
 
+  # --- Start place ---------------------------------------------------------------------------
+  # The default for the LunaLib row of the same key, read when LunaLib is not installed. On: the
+  # research is offered at any docked market, not only at the Galatia Academy.
+  "liminal_skip_galatia": false,
+
   # --- The Linkage Shop, the Work this mod declares into Nomad Flotilla -----------------------
   # Capacity every Liminal Template gains while the Work stands. The Work's effect line in
   # data/config/nomad/nomad_work_sizes.csv states the same number.
